@@ -1,0 +1,203 @@
+{
+  "total": 10,
+  "matched": 10,
+  "rows": [
+    {
+      "file": "faithfulness/good_rfl.lean",
+      "theorem": "good_rfl",
+      "expected": {
+        "check1_axioms": "pass",
+        "check2_tactics": "pass"
+      },
+      "actual": {
+        "check1_axioms": "pass",
+        "check2_tactics": "pass"
+      },
+      "match": true,
+      "axioms_seen": [],
+      "tactic_findings": [],
+      "note": "Tautology-ish: 2+2=4 by rfl. Faithful but flagged as vacuous (decide closes negation). Demonstrates Check 3 firing correctly."
+    },
+    {
+      "file": "faithfulness/good_classical.lean",
+      "theorem": "good_classical",
+      "expected": {
+        "check1_axioms": "pass",
+        "check2_tactics": "pass"
+      },
+      "actual": {
+        "check1_axioms": "pass",
+        "check2_tactics": "pass"
+      },
+      "match": true,
+      "axioms_seen": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "tactic_findings": [],
+      "note": "LEM. Uses Classical.choice (trusted). Faithful, non-vacuous."
+    },
+    {
+      "file": "faithfulness/bad_sorry.lean",
+      "theorem": "bad_sorry",
+      "expected": {
+        "check1_axioms": "fail",
+        "check2_tactics": "fail"
+      },
+      "actual": {
+        "check1_axioms": "fail",
+        "check2_tactics": "fail"
+      },
+      "match": true,
+      "axioms_seen": [
+        "sorryAx"
+      ],
+      "tactic_findings": [
+        {
+          "tactic": "sorry",
+          "line": 2
+        }
+      ],
+      "note": "Explicit sorry. Both Checks 1 and 2 must fire."
+    },
+    {
+      "file": "faithfulness/bad_hidden_sorry.lean",
+      "theorem": "bad_hidden_sorry",
+      "expected": {
+        "check1_axioms": "fail",
+        "check2_tactics": "fail"
+      },
+      "actual": {
+        "check1_axioms": "fail",
+        "check2_tactics": "fail"
+      },
+      "match": true,
+      "axioms_seen": [
+        "sorryAx"
+      ],
+      "tactic_findings": [
+        {
+          "tactic": "sorry",
+          "line": 5
+        }
+      ],
+      "note": "Sorry inside a `have` that isn't used. Kernel still drags sorryAx into the term. THIS IS THE KEY FAILURE MODE the proposal targets."
+    },
+    {
+      "file": "faithfulness/bad_fresh_axiom.lean",
+      "theorem": "bad_fresh_axiom",
+      "expected": {
+        "check1_axioms": "fail",
+        "check2_tactics": "fail"
+      },
+      "actual": {
+        "check1_axioms": "fail",
+        "check2_tactics": "fail"
+      },
+      "match": true,
+      "axioms_seen": [
+        "magic_lemma"
+      ],
+      "tactic_findings": [
+        {
+          "tactic": "fresh axiom",
+          "line": 1
+        }
+      ],
+      "note": "Fresh axiom outside the trusted base. Caught by both Check 1 (kernel axiom inspection) and Check 2 (linter sees the `axiom` declaration). Defense in depth: the two checks must agree, since a fresh axiom could equally appear without any banned tactic or vice versa."
+    },
+    {
+      "file": "faithfulness/bad_native_decide.lean",
+      "theorem": "bad_native_decide",
+      "expected": {
+        "check1_axioms": "pass-with-flag",
+        "check2_tactics": "flag"
+      },
+      "actual": {
+        "check1_axioms": "pass-with-flag",
+        "check2_tactics": "flag"
+      },
+      "match": true,
+      "axioms_seen": [
+        "Lean.ofReduceBool"
+      ],
+      "tactic_findings": [
+        {
+          "tactic": "native_decide",
+          "line": 5
+        }
+      ],
+      "note": "native_decide is sound here but introduces compiler-trust axioms. Check 1 reports them with a flag; Check 2 raises a review flag."
+    },
+    {
+      "file": "vacuity/vacuous_trivial.lean",
+      "theorem": "vacuous_trivial",
+      "expected": {
+        "check1_axioms": "pass",
+        "check2_tactics": "pass"
+      },
+      "actual": {
+        "check1_axioms": "pass",
+        "check2_tactics": "pass"
+      },
+      "match": true,
+      "axioms_seen": [],
+      "tactic_findings": [],
+      "note": "Reflexivity for all n. Check 3 should fire."
+    },
+    {
+      "file": "vacuity/vacuous_ex_falso.lean",
+      "theorem": "vacuous_ex_falso",
+      "expected": {
+        "check1_axioms": "pass",
+        "check2_tactics": "pass"
+      },
+      "actual": {
+        "check1_axioms": "pass",
+        "check2_tactics": "pass"
+      },
+      "match": true,
+      "axioms_seen": [],
+      "tactic_findings": [],
+      "note": "Hypotheses unsatisfiable. Check 3 (or a contradiction probe on hypotheses) should fire."
+    },
+    {
+      "file": "alignment/aligned_simple.lean",
+      "theorem": "aligned_simple",
+      "expected": {
+        "check1_axioms": "n/a",
+        "check2_tactics": "pass"
+      },
+      "actual": {
+        "check1_axioms": "n/a",
+        "check2_tactics": "pass"
+      },
+      "match": true,
+      "axioms_seen": null,
+      "tactic_findings": [],
+      "note": "Alignment-corpus file: requires mathlib (Nat, ring_nf), so Check 1 is only meaningful when audited inside a lake project. We deliberately do NOT ship `#print axioms` here; in the audit pipeline, this file is consumed as a fixture for Check 4."
+    },
+    {
+      "file": "alignment/misaligned_missing_hyp.lean",
+      "theorem": "misaligned_missing_hyp",
+      "expected": {
+        "check1_axioms": "n/a",
+        "check2_tactics": "fail"
+      },
+      "actual": {
+        "check1_axioms": "n/a",
+        "check2_tactics": "fail"
+      },
+      "match": true,
+      "axioms_seen": null,
+      "tactic_findings": [
+        {
+          "tactic": "sorry",
+          "line": 6
+        }
+      ],
+      "note": "Formal statement drops `p > 2`; Check 4 should flag misalignment. Proof body is also a `sorry`, so Check 2 fires; Check 1 not run standalone (needs mathlib)."
+    }
+  ]
+}

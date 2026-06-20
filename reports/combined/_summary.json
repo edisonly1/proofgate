@@ -1,0 +1,78 @@
+{
+  "deepseek-prover-v2-test": {
+    "prover": "deepseek-prover-v2-test",
+    "n_total": 217,
+    "n_faithful_pass": 184,
+    "faithful_pass_combined": 0.8479,
+    "checks_run": {
+      "tactic": true,
+      "axiom": true,
+      "alignment": true,
+      "vacuity": false
+    },
+    "counts": {
+      "faithful": 184,
+      "axiom_pass": 217,
+      "alignment_aligned": 184,
+      "unfaithful": 33,
+      "alignment_misaligned": 33
+    }
+  },
+  "deepseek-prover-v2-valid": {
+    "prover": "deepseek-prover-v2-valid",
+    "n_total": 221,
+    "n_faithful_pass": 176,
+    "faithful_pass_combined": 0.7964,
+    "checks_run": {
+      "tactic": true,
+      "axiom": true,
+      "alignment": true,
+      "vacuity": false
+    },
+    "counts": {
+      "faithful": 176,
+      "axiom_pass": 221,
+      "alignment_aligned": 176,
+      "unfaithful": 45,
+      "alignment_misaligned": 45
+    }
+  },
+  "kimina-prover-72b-test": {
+    "prover": "kimina-prover-72b-test",
+    "n_total": 197,
+    "n_faithful_pass": 172,
+    "faithful_pass_combined": 0.8731,
+    "checks_run": {
+      "tactic": true,
+      "axiom": true,
+      "alignment": true,
+      "vacuity": false
+    },
+    "counts": {
+      "faithful": 172,
+      "axiom_pass": 186,
+      "alignment_aligned": 172,
+      "unfaithful": 25,
+      "alignment_misaligned": 25,
+      "axiom_pass-with-flag": 11
+    }
+  },
+  "goedel-prover-v2-test": {
+    "prover": "goedel-prover-v2-test",
+    "n_total": 244,
+    "n_faithful_pass": 0,
+    "faithful_pass_combined": 0.0,
+    "checks_run": {
+      "tactic": true,
+      "axiom": false,
+      "alignment": true,
+      "vacuity": false
+    },
+    "counts": {
+      "unfaithful": 244,
+      "axiom_n/a": 244,
+      "alignment_aligned": 242,
+      "alignment_misaligned": 2
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "deepseek-prover-v2__miniF2F-test": {
+    "prover": "deepseek-prover-v2",
+    "benchmark": "miniF2F-test",
+    "n_items": 217,
+    "n_items_with_any_finding": 0,
+    "pct_items_with_any_finding": 0.0,
+    "verdict_counts": {
+      "pass": 217
+    },
+    "findings_by_tactic": {},
+    "sample_evidence": {}
+  },
+  "deepseek-prover-v2__miniF2F-valid": {
+    "prover": "deepseek-prover-v2",
+    "benchmark": "miniF2F-valid",
+    "n_items": 221,
+    "n_items_with_any_finding": 0,
+    "pct_items_with_any_finding": 0.0,
+    "verdict_counts": {
+      "pass": 221
+    },
+    "findings_by_tactic": {},
+    "sample_evidence": {}
+  },
+  "kimina-prover-72b__miniF2F-test": {
+    "prover": "kimina-prover-72b",
+    "benchmark": "miniF2F-test",
+    "n_items": 197,
+    "n_items_with_any_finding": 11,
+    "pct_items_with_any_finding": 5.6,
+    "verdict_counts": {
+      "pass": 186,
+      "flag": 11
+    },
+    "findings_by_tactic": {
+      "native_decide": 11
+    },
+    "sample_evidence": {
+      "native_decide": [
+        {
+          "problem_id": "amc12a_2020_p4",
+          "line": 17,
+          "snippet": "native_decide"
+        },
+        {
+          "problem_id": "amc12b_2021_p1",
+          "line": 59,
+          "snippet": "native_decide"
+        },
+        {
+          "problem_id": "mathd_algebra_170",
+          "line": 49,
+          "snippet": "native_decide"
+        }
+      ]
+    }
+  },
+  "goedel-prover-v2__miniF2F-test": {
+    "prover": "goedel-prover-v2",
+    "benchmark": "miniF2F-test",
+    "n_items": 244,
+    "n_items_with_any_finding": 244,
+    "pct_items_with_any_finding": 100.0,
+    "verdict_counts": {
+      "fail": 244
+    },
+    "findings_by_tactic": {
+      "sorry": 244
+    },
+    "sample_evidence": {
+      "sorry": [
+        {
+          "problem_id": "mathd_algebra_478",
+          "line": 10,
+          "snippet": "(h\u2082 : b = 30) (h\u2083 : h = 13 / 2) : v = 65 := by sorry"
+        },
+        {
+          "problem_id": "numbertheory_4x3m7y3neq2003",
+          "line": 9,
+          "snippet": "theorem numbertheory_4x3m7y3neq2003 (x y : \u2124) : 4 * x ^ 3 - 7 * y ^ 3 \u2260 2003 := by sorry"
+        },
+        {
+          "problem_id": "aime_1983_p1",
+          "line": 11,
+          "snippet": "(h2 : Real.log w / Real.log (x * y * z) = 12) : Real.log w / Real.log z = 60 := by sorry"
+        }
+      ]
+    }
+  }
+}

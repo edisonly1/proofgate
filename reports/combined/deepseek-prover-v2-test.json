@@ -1,0 +1,2789 @@
+{
+  "summary": {
+    "prover": "deepseek-prover-v2-test",
+    "n_total": 217,
+    "n_faithful_pass": 184,
+    "faithful_pass_combined": 0.8479,
+    "checks_run": {
+      "tactic": true,
+      "axiom": true,
+      "alignment": true,
+      "vacuity": false
+    },
+    "counts": {
+      "faithful": 184,
+      "axiom_pass": 217,
+      "alignment_aligned": 184,
+      "unfaithful": 33,
+      "alignment_misaligned": 33
+    }
+  },
+  "rows": [
+    {
+      "problem_id": "aime_1983_p1",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5341
+    },
+    {
+      "problem_id": "aime_1983_p2",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6572
+    },
+    {
+      "problem_id": "aime_1983_p3",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4592
+    },
+    {
+      "problem_id": "aime_1984_p1",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.2856
+    },
+    {
+      "problem_id": "aime_1984_p7",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6817
+    },
+    {
+      "problem_id": "aime_1987_p5",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6227
+    },
+    {
+      "problem_id": "aime_1988_p8",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5202
+    },
+    {
+      "problem_id": "aime_1989_p8",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4072
+    },
+    {
+      "problem_id": "aime_1990_p15",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5825
+    },
+    {
+      "problem_id": "aime_1990_p4",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5548
+    },
+    {
+      "problem_id": "aime_1991_p9",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5128
+    },
+    {
+      "problem_id": "aime_1994_p3",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.513
+    },
+    {
+      "problem_id": "aime_1997_p9",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5773
+    },
+    {
+      "problem_id": "aime_1999_p11",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3833
+    },
+    {
+      "problem_id": "algebra_2varlineareq_fp3zeq11_3tfm1m5zeqn68_feqn10_zeq7",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.645
+    },
+    {
+      "problem_id": "algebra_9onxpypzleqsum2onxpy",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6396
+    },
+    {
+      "problem_id": "algebra_abpbcpcageq3_sumaonsqrtapbgeq3onsqrt2",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5265
+    },
+    {
+      "problem_id": "algebra_absapbon1pabsapbleqsumabsaon1pabsa",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5555
+    },
+    {
+      "problem_id": "algebra_absxm1pabsxpabsxp1eqxp2_0leqxleq1",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.567
+    },
+    {
+      "problem_id": "algebra_amgm_sum1toneqn_prod1tonleq1",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3359
+    },
+    {
+      "problem_id": "algebra_amgm_sumasqdivbgeqsuma",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6295
+    },
+    {
+      "problem_id": "algebra_apbon2pownleqapownpbpowon2",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5142
+    },
+    {
+      "problem_id": "algebra_apbpceq2_abpbcpcaeq1_aleq1on3anbleq1ancleq4on3",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5732
+    },
+    {
+      "problem_id": "algebra_bleqa_apbon2msqrtableqambsqon8b",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4828
+    },
+    {
+      "problem_id": "algebra_others_exirrpowirrrat",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5417
+    },
+    {
+      "problem_id": "algebra_sqineq_at2malt1",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5953
+    },
+    {
+      "problem_id": "algebra_sqineq_unitcircatbpabsamblt1",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6163
+    },
+    {
+      "problem_id": "algebra_sqineq_unitcircatbpamblt1",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5998
+    },
+    {
+      "problem_id": "algebra_sum1onsqrt2to1onsqrt10000lt198",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.471
+    },
+    {
+      "problem_id": "amc12_2000_p1",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4576
+    },
+    {
+      "problem_id": "amc12_2000_p12",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5651
+    },
+    {
+      "problem_id": "amc12_2000_p20",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.509
+    },
+    {
+      "problem_id": "amc12_2000_p6",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4404
+    },
+    {
+      "problem_id": "amc12_2001_p21",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6079
+    },
+    {
+      "problem_id": "amc12_2001_p5",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4411
+    },
+    {
+      "problem_id": "amc12a_2002_p13",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4675
+    },
+    {
+      "problem_id": "amc12a_2002_p6",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3226
+    },
+    {
+      "problem_id": "amc12a_2003_p5",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.596
+    },
+    {
+      "problem_id": "amc12a_2008_p25",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5016
+    },
+    {
+      "problem_id": "amc12a_2009_p6",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6918
+    },
+    {
+      "problem_id": "amc12a_2009_p7",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4557
+    },
+    {
+      "problem_id": "amc12a_2013_p4",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6528
+    },
+    {
+      "problem_id": "amc12a_2019_p12",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6191
+    },
+    {
+      "problem_id": "amc12a_2020_p15",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5381
+    },
+    {
+      "problem_id": "amc12a_2021_p14",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5487
+    },
+    {
+      "problem_id": "amc12a_2021_p18",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4779
+    },
+    {
+      "problem_id": "amc12a_2021_p19",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.425
+    },
+    {
+      "problem_id": "amc12a_2021_p22",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5778
+    },
+    {
+      "problem_id": "amc12a_2021_p3",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3079
+    },
+    {
+      "problem_id": "amc12a_2021_p8",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5735
+    },
+    {
+      "problem_id": "amc12a_2021_p9",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5184
+    },
+    {
+      "problem_id": "amc12b_2002_p19",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6555
+    },
+    {
+      "problem_id": "amc12b_2002_p2",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5507
+    },
+    {
+      "problem_id": "amc12b_2002_p7",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5227
+    },
+    {
+      "problem_id": "amc12b_2020_p13",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4808
+    },
+    {
+      "problem_id": "amc12b_2020_p2",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.608
+    },
+    {
+      "problem_id": "amc12b_2020_p21",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4649
+    },
+    {
+      "problem_id": "amc12b_2020_p22",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.639
+    },
+    {
+      "problem_id": "amc12b_2020_p6",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5762
+    },
+    {
+      "problem_id": "amc12b_2021_p1",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4251
+    },
+    {
+      "problem_id": "amc12b_2021_p18",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6007
+    },
+    {
+      "problem_id": "amc12b_2021_p3",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5934
+    },
+    {
+      "problem_id": "amc12b_2021_p4",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3101
+    },
+    {
+      "problem_id": "amc12b_2021_p9",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5677
+    },
+    {
+      "problem_id": "imo_1959_p1",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4218
+    },
+    {
+      "problem_id": "imo_1960_p2",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3308
+    },
+    {
+      "problem_id": "imo_1962_p2",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.509
+    },
+    {
+      "problem_id": "imo_1963_p5",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6122
+    },
+    {
+      "problem_id": "imo_1964_p2",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4462
+    },
+    {
+      "problem_id": "imo_1965_p2",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3544
+    },
+    {
+      "problem_id": "imo_1968_p5_1",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5722
+    },
+    {
+      "problem_id": "imo_1981_p6",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5758
+    },
+    {
+      "problem_id": "imo_1983_p6",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4302
+    },
+    {
+      "problem_id": "imo_1992_p1",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5416
+    },
+    {
+      "problem_id": "induction_11div10tonmn1ton",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.7203
+    },
+    {
+      "problem_id": "induction_12dvd4expnp1p20",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6168
+    },
+    {
+      "problem_id": "induction_1pxpownlt1pnx",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6299
+    },
+    {
+      "problem_id": "induction_nfactltnexpnm1ngt3",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6352
+    },
+    {
+      "problem_id": "induction_pord1p1on2powklt5on2",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4611
+    },
+    {
+      "problem_id": "induction_pprime_pdvdapowpma",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4607
+    },
+    {
+      "problem_id": "induction_prod1p1onk3le3m1onn",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6027
+    },
+    {
+      "problem_id": "induction_sumkexp3eqsumksq",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5776
+    },
+    {
+      "problem_id": "mathd_algebra_107",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6058
+    },
+    {
+      "problem_id": "mathd_algebra_113",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6581
+    },
+    {
+      "problem_id": "mathd_algebra_114",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5131
+    },
+    {
+      "problem_id": "mathd_algebra_125",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.353
+    },
+    {
+      "problem_id": "mathd_algebra_129",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.428
+    },
+    {
+      "problem_id": "mathd_algebra_137",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.2575
+    },
+    {
+      "problem_id": "mathd_algebra_139",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4447
+    },
+    {
+      "problem_id": "mathd_algebra_141",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4944
+    },
+    {
+      "problem_id": "mathd_algebra_142",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5704
+    },
+    {
+      "problem_id": "mathd_algebra_143",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.656
+    },
+    {
+      "problem_id": "mathd_algebra_148",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5922
+    },
+    {
+      "problem_id": "mathd_algebra_153",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5948
+    },
+    {
+      "problem_id": "mathd_algebra_156",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3608
+    },
+    {
+      "problem_id": "mathd_algebra_158",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.312
+    },
+    {
+      "problem_id": "mathd_algebra_160",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.2464
+    },
+    {
+      "problem_id": "mathd_algebra_17",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6557
+    },
+    {
+      "problem_id": "mathd_algebra_170",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4141
+    },
+    {
+      "problem_id": "mathd_algebra_171",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5996
+    },
+    {
+      "problem_id": "mathd_algebra_176",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5228
+    },
+    {
+      "problem_id": "mathd_algebra_184",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4564
+    },
+    {
+      "problem_id": "mathd_algebra_188",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.1387
+    },
+    {
+      "problem_id": "mathd_algebra_196",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4821
+    },
+    {
+      "problem_id": "mathd_algebra_208",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.679
+    },
+    {
+      "problem_id": "mathd_algebra_209",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3984
+    },
+    {
+      "problem_id": "mathd_algebra_215",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5474
+    },
+    {
+      "problem_id": "mathd_algebra_24",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.2322
+    },
+    {
+      "problem_id": "mathd_algebra_246",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5766
+    },
+    {
+      "problem_id": "mathd_algebra_263",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6521
+    },
+    {
+      "problem_id": "mathd_algebra_270",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5937
+    },
+    {
+      "problem_id": "mathd_algebra_275",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5381
+    },
+    {
+      "problem_id": "mathd_algebra_276",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.656
+    },
+    {
+      "problem_id": "mathd_algebra_288",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6007
+    },
+    {
+      "problem_id": "mathd_algebra_289",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5575
+    },
+    {
+      "problem_id": "mathd_algebra_293",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6019
+    },
+    {
+      "problem_id": "mathd_algebra_296",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4081
+    },
+    {
+      "problem_id": "mathd_algebra_302",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6651
+    },
+    {
+      "problem_id": "mathd_algebra_304",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6631
+    },
+    {
+      "problem_id": "mathd_algebra_313",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5544
+    },
+    {
+      "problem_id": "mathd_algebra_314",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5597
+    },
+    {
+      "problem_id": "mathd_algebra_320",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4802
+    },
+    {
+      "problem_id": "mathd_algebra_329",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5127
+    },
+    {
+      "problem_id": "mathd_algebra_33",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5919
+    },
+    {
+      "problem_id": "mathd_algebra_332",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6316
+    },
+    {
+      "problem_id": "mathd_algebra_338",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6191
+    },
+    {
+      "problem_id": "mathd_algebra_342",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3683
+    },
+    {
+      "problem_id": "mathd_algebra_346",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6728
+    },
+    {
+      "problem_id": "mathd_algebra_354",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5284
+    },
+    {
+      "problem_id": "mathd_algebra_359",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.623
+    },
+    {
+      "problem_id": "mathd_algebra_362",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6495
+    },
+    {
+      "problem_id": "mathd_algebra_388",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.7028
+    },
+    {
+      "problem_id": "mathd_algebra_392",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5042
+    },
+    {
+      "problem_id": "mathd_algebra_398",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3208
+    },
+    {
+      "problem_id": "mathd_algebra_400",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6339
+    },
+    {
+      "problem_id": "mathd_algebra_412",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5746
+    },
+    {
+      "problem_id": "mathd_algebra_419",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.585
+    },
+    {
+      "problem_id": "mathd_algebra_427",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6998
+    },
+    {
+      "problem_id": "mathd_algebra_432",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6535
+    },
+    {
+      "problem_id": "mathd_algebra_44",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4845
+    },
+    {
+      "problem_id": "mathd_algebra_440",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.2998
+    },
+    {
+      "problem_id": "mathd_algebra_441",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6245
+    },
+    {
+      "problem_id": "mathd_algebra_452",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4394
+    },
+    {
+      "problem_id": "mathd_algebra_459",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3821
+    },
+    {
+      "problem_id": "mathd_algebra_478",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.403
+    },
+    {
+      "problem_id": "mathd_algebra_484",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5332
+    },
+    {
+      "problem_id": "mathd_algebra_487",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.418
+    },
+    {
+      "problem_id": "mathd_algebra_513",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4945
+    },
+    {
+      "problem_id": "mathd_algebra_598",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.63
+    },
+    {
+      "problem_id": "mathd_algebra_756",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6722
+    },
+    {
+      "problem_id": "mathd_algebra_76",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6349
+    },
+    {
+      "problem_id": "mathd_algebra_80",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5882
+    },
+    {
+      "problem_id": "mathd_numbertheory_100",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6816
+    },
+    {
+      "problem_id": "mathd_numbertheory_1124",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5176
+    },
+    {
+      "problem_id": "mathd_numbertheory_12",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.2595
+    },
+    {
+      "problem_id": "mathd_numbertheory_127",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4629
+    },
+    {
+      "problem_id": "mathd_numbertheory_135",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5817
+    },
+    {
+      "problem_id": "mathd_numbertheory_150",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6301
+    },
+    {
+      "problem_id": "mathd_numbertheory_175",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5278
+    },
+    {
+      "problem_id": "mathd_numbertheory_185",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3944
+    },
+    {
+      "problem_id": "mathd_numbertheory_207",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5386
+    },
+    {
+      "problem_id": "mathd_numbertheory_212",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6026
+    },
+    {
+      "problem_id": "mathd_numbertheory_222",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6051
+    },
+    {
+      "problem_id": "mathd_numbertheory_227",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.2531
+    },
+    {
+      "problem_id": "mathd_numbertheory_229",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5759
+    },
+    {
+      "problem_id": "mathd_numbertheory_233",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6768
+    },
+    {
+      "problem_id": "mathd_numbertheory_234",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5088
+    },
+    {
+      "problem_id": "mathd_numbertheory_235",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6235
+    },
+    {
+      "problem_id": "mathd_numbertheory_237",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3728
+    },
+    {
+      "problem_id": "mathd_numbertheory_239",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.2395
+    },
+    {
+      "problem_id": "mathd_numbertheory_247",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4473
+    },
+    {
+      "problem_id": "mathd_numbertheory_254",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.1932
+    },
+    {
+      "problem_id": "mathd_numbertheory_277",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.598
+    },
+    {
+      "problem_id": "mathd_numbertheory_293",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4689
+    },
+    {
+      "problem_id": "mathd_numbertheory_296",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4125
+    },
+    {
+      "problem_id": "mathd_numbertheory_299",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4957
+    },
+    {
+      "problem_id": "mathd_numbertheory_3",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.422
+    },
+    {
+      "problem_id": "mathd_numbertheory_314",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3832
+    },
+    {
+      "problem_id": "mathd_numbertheory_320",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5715
+    },
+    {
+      "problem_id": "mathd_numbertheory_321",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5849
+    },
+    {
+      "problem_id": "mathd_numbertheory_328",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5404
+    },
+    {
+      "problem_id": "mathd_numbertheory_34",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4409
+    },
+    {
+      "problem_id": "mathd_numbertheory_341",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5237
+    },
+    {
+      "problem_id": "mathd_numbertheory_342",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5406
+    },
+    {
+      "problem_id": "mathd_numbertheory_343",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4111
+    },
+    {
+      "problem_id": "mathd_numbertheory_345",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6117
+    },
+    {
+      "problem_id": "mathd_numbertheory_353",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3854
+    },
+    {
+      "problem_id": "mathd_numbertheory_427",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5456
+    },
+    {
+      "problem_id": "mathd_numbertheory_430",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4186
+    },
+    {
+      "problem_id": "mathd_numbertheory_435",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.551
+    },
+    {
+      "problem_id": "mathd_numbertheory_447",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.2067
+    },
+    {
+      "problem_id": "mathd_numbertheory_457",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6025
+    },
+    {
+      "problem_id": "mathd_numbertheory_483",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3238
+    },
+    {
+      "problem_id": "mathd_numbertheory_495",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4289
+    },
+    {
+      "problem_id": "mathd_numbertheory_5",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3059
+    },
+    {
+      "problem_id": "mathd_numbertheory_517",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5341
+    },
+    {
+      "problem_id": "mathd_numbertheory_521",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4171
+    },
+    {
+      "problem_id": "mathd_numbertheory_541",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4765
+    },
+    {
+      "problem_id": "mathd_numbertheory_551",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5631
+    },
+    {
+      "problem_id": "mathd_numbertheory_552",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5341
+    },
+    {
+      "problem_id": "mathd_numbertheory_559",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3371
+    },
+    {
+      "problem_id": "mathd_numbertheory_582",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5139
+    },
+    {
+      "problem_id": "mathd_numbertheory_618",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6879
+    },
+    {
+      "problem_id": "mathd_numbertheory_66",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5757
+    },
+    {
+      "problem_id": "mathd_numbertheory_711",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6051
+    },
+    {
+      "problem_id": "mathd_numbertheory_728",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6958
+    },
+    {
+      "problem_id": "mathd_numbertheory_765",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5205
+    },
+    {
+      "problem_id": "mathd_numbertheory_769",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6641
+    },
+    {
+      "problem_id": "mathd_numbertheory_85",
+      "faithful_pass": false,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext"
+      ],
+      "alignment": "misaligned",
+      "alignment_score": 0.3029
+    },
+    {
+      "problem_id": "mathd_numbertheory_99",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4757
+    },
+    {
+      "problem_id": "numbertheory_2pownm1prime_nprime",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4839
+    },
+    {
+      "problem_id": "numbertheory_3pow2pownm1mod2pownp3eq2pownp2",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5407
+    },
+    {
+      "problem_id": "numbertheory_4x3m7y3neq2003",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.7325
+    },
+    {
+      "problem_id": "numbertheory_aoddbdiv4asqpbsqmod8eq1",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.5483
+    },
+    {
+      "problem_id": "numbertheory_fxeq4powxp6powxp9powx_f2powmdvdf2pown",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6023
+    },
+    {
+      "problem_id": "numbertheory_notequiv2i2jasqbsqdiv8",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.4694
+    },
+    {
+      "problem_id": "numbertheory_x5neqy2p4",
+      "faithful_pass": true,
+      "tactic": "pass",
+      "axiom": "pass",
+      "axiom_set": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "alignment": "aligned",
+      "alignment_score": 0.6746
+    }
+  ]
+}

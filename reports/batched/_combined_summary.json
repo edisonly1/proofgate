@@ -1,0 +1,21 @@
+[
+  {
+    "prover": "deepseek-prover-v2-valid",
+    "benchmark": "miniF2F-valid",
+    "n_total": 221,
+    "verdict_counts": {
+      "pass": 221,
+      "pass-with-flag": 0,
+      "fail": 0,
+      "no-output": 0
+    },
+    "failure_modes": {
+      "sorry": 0,
+      "extra_axiom": 0
+    },
+    "wall_seconds": 1902.3,
+    "lean_returncode": 0,
+    "faithful_pass_T0": 1.0,
+    "faithful_pass_T1": 1.0
+  }
+]

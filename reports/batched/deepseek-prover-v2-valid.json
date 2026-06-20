@@ -1,0 +1,2848 @@
+{
+  "summary": {
+    "prover": "deepseek-prover-v2-valid",
+    "benchmark": "miniF2F-valid",
+    "n_total": 221,
+    "verdict_counts": {
+      "pass": 221,
+      "pass-with-flag": 0,
+      "fail": 0,
+      "no-output": 0
+    },
+    "failure_modes": {
+      "sorry": 0,
+      "extra_axiom": 0
+    },
+    "wall_seconds": 1902.3,
+    "lean_returncode": 0,
+    "faithful_pass_T0": 1.0,
+    "faithful_pass_T1": 1.0
+  },
+  "rows": [
+    {
+      "problem_id": "aimeII_2001_p3",
+      "theorem_name": "aimeII_2001_p3",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "aimeII_2020_p6",
+      "theorem_name": "aimeII_2020_p6",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "aimeI_2000_p7",
+      "theorem_name": "aimeI_2000_p7",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "aime_1983_p9",
+      "theorem_name": "aime_1983_p9",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "aime_1984_p15",
+      "theorem_name": "aime_1984_p15",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "aime_1987_p8",
+      "theorem_name": "aime_1987_p8",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "aime_1988_p4",
+      "theorem_name": "aime_1988_p4",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "aime_1990_p2",
+      "theorem_name": "aime_1990_p2",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "aime_1991_p1",
+      "theorem_name": "aime_1991_p1",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "aime_1991_p6",
+      "theorem_name": "aime_1991_p6",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "aime_1996_p5",
+      "theorem_name": "aime_1996_p5",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "aime_1997_p11",
+      "theorem_name": "aime_1997_p11",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_2complexrootspoly_xsqp49eqxp7itxpn7i",
+      "theorem_name": "algebra_2complexrootspoly_xsqp49eqxp7itxpn7i",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_2rootsintpoly_am10tap11eqasqpam110",
+      "theorem_name": "algebra_2rootsintpoly_am10tap11eqasqpam110",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_2rootspoly_apatapbeq2asqp2ab",
+      "theorem_name": "algebra_2rootspoly_apatapbeq2asqp2ab",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_2varlineareq_xpeeq7_2xpeeq3_eeq11_xeqn4",
+      "theorem_name": "algebra_2varlineareq_xpeeq7_2xpeeq3_eeq11_xeqn4",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_3rootspoly_amdtamctambeqnasqmbpctapcbtdpasqmbpctapcbta",
+      "theorem_name": "algebra_3rootspoly_amdtamctambeqnasqmbpctapcbtdpasqmbpctapcbta",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_amgm_faxinrrp2msqrt2geq2mxm1div2x",
+      "theorem_name": "algebra_amgm_faxinrrp2msqrt2geq2mxm1div2x",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4",
+      "theorem_name": "algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_amgm_sumasqdivbsqgeqsumbdiva",
+      "theorem_name": "algebra_amgm_sumasqdivbsqgeqsumbdiva",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_apb4leq8ta4pb4",
+      "theorem_name": "algebra_apb4leq8ta4pb4",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_binomnegdiscrineq_10alt28asqp1",
+      "theorem_name": "algebra_binomnegdiscrineq_10alt28asqp1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_manipexpr_2erprsqpesqeqnrpnesq",
+      "theorem_name": "algebra_manipexpr_2erprsqpesqeqnrpnesq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_manipexpr_apbeq2cceqiacpbceqm2",
+      "theorem_name": "algebra_manipexpr_apbeq2cceqiacpbceqm2",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_sqineq_2at2pclta2c2p41pc",
+      "theorem_name": "algebra_sqineq_2at2pclta2c2p41pc",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_sqineq_2unitcircatblt1",
+      "theorem_name": "algebra_sqineq_2unitcircatblt1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_sqineq_36azm9asqle36zsq",
+      "theorem_name": "algebra_sqineq_36azm9asqle36zsq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_sqineq_4bap1lt4bsqpap1sq",
+      "theorem_name": "algebra_sqineq_4bap1lt4bsqpap1sq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "algebra_xmysqpymzsqpzmxsqeqxyz_xpypzp6dvdx3y3z3",
+      "theorem_name": "algebra_xmysqpymzsqpzmxsqeqxyz_xpypzp6dvdx3y3z3",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12_2000_p11",
+      "theorem_name": "amc12_2000_p11",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12_2000_p15",
+      "theorem_name": "amc12_2000_p15",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12_2000_p5",
+      "theorem_name": "amc12_2000_p5",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12_2001_p2",
+      "theorem_name": "amc12_2001_p2",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12_2001_p9",
+      "theorem_name": "amc12_2001_p9",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2002_p1",
+      "theorem_name": "amc12a_2002_p1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2002_p12",
+      "theorem_name": "amc12a_2002_p12",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2003_p1",
+      "theorem_name": "amc12a_2003_p1",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2003_p24",
+      "theorem_name": "amc12a_2003_p24",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2003_p25",
+      "theorem_name": "amc12a_2003_p25",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2008_p15",
+      "theorem_name": "amc12a_2008_p15",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2008_p2",
+      "theorem_name": "amc12a_2008_p2",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2008_p4",
+      "theorem_name": "amc12a_2008_p4",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2008_p8",
+      "theorem_name": "amc12a_2008_p8",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2009_p15",
+      "theorem_name": "amc12a_2009_p15",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2009_p2",
+      "theorem_name": "amc12a_2009_p2",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2009_p5",
+      "theorem_name": "amc12a_2009_p5",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2009_p9",
+      "theorem_name": "amc12a_2009_p9",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2010_p10",
+      "theorem_name": "amc12a_2010_p10",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2010_p11",
+      "theorem_name": "amc12a_2010_p11",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2011_p18",
+      "theorem_name": "amc12a_2011_p18",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2013_p7",
+      "theorem_name": "amc12a_2013_p7",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2013_p8",
+      "theorem_name": "amc12a_2013_p8",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2015_p10",
+      "theorem_name": "amc12a_2015_p10",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2016_p2",
+      "theorem_name": "amc12a_2016_p2",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2016_p3",
+      "theorem_name": "amc12a_2016_p3",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2017_p2",
+      "theorem_name": "amc12a_2017_p2",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2017_p7",
+      "theorem_name": "amc12a_2017_p7",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2019_p21",
+      "theorem_name": "amc12a_2019_p21",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2019_p9",
+      "theorem_name": "amc12a_2019_p9",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12a_2021_p7",
+      "theorem_name": "amc12a_2021_p7",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12b_2002_p11",
+      "theorem_name": "amc12b_2002_p11",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12b_2002_p3",
+      "theorem_name": "amc12b_2002_p3",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12b_2002_p6",
+      "theorem_name": "amc12b_2002_p6",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12b_2003_p17",
+      "theorem_name": "amc12b_2003_p17",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12b_2003_p6",
+      "theorem_name": "amc12b_2003_p6",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12b_2003_p9",
+      "theorem_name": "amc12b_2003_p9",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12b_2004_p3",
+      "theorem_name": "amc12b_2004_p3",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "amc12b_2020_p5",
+      "theorem_name": "amc12b_2020_p5",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "imo_1961_p1",
+      "theorem_name": "imo_1961_p1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "imo_1964_p1_1",
+      "theorem_name": "imo_1964_p1_1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "imo_1964_p1_2",
+      "theorem_name": "imo_1964_p1_2",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "imo_1965_p1",
+      "theorem_name": "imo_1965_p1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "imo_1966_p4",
+      "theorem_name": "imo_1966_p4",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "imo_1966_p5",
+      "theorem_name": "imo_1966_p5",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "imo_1973_p3",
+      "theorem_name": "imo_1973_p3",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "imo_1974_p5",
+      "theorem_name": "imo_1974_p5",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "imo_1977_p5",
+      "theorem_name": "imo_1977_p5",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "imo_1984_p2",
+      "theorem_name": "imo_1984_p2",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "induction_divisibility_3div2tooddnp1",
+      "theorem_name": "induction_divisibility_3div2tooddnp1",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "induction_divisibility_3divnto3m2n",
+      "theorem_name": "induction_divisibility_3divnto3m2n",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "induction_divisibility_9div10tonm1",
+      "theorem_name": "induction_divisibility_9div10tonm1",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "induction_ineq_nsqlefactn",
+      "theorem_name": "induction_ineq_nsqlefactn",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "induction_seq_mul2pnp1",
+      "theorem_name": "induction_seq_mul2pnp1",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "induction_sum2kp1npqsqm1",
+      "theorem_name": "induction_sum2kp1npqsqm1",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "induction_sum_1oktkp1",
+      "theorem_name": "induction_sum_1oktkp1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "induction_sum_odd",
+      "theorem_name": "induction_sum_odd",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_10",
+      "theorem_name": "mathd_algebra_10",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_101",
+      "theorem_name": "mathd_algebra_101",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_104",
+      "theorem_name": "mathd_algebra_104",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_109",
+      "theorem_name": "mathd_algebra_109",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_11",
+      "theorem_name": "mathd_algebra_11",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_110",
+      "theorem_name": "mathd_algebra_110",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_116",
+      "theorem_name": "mathd_algebra_116",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_119",
+      "theorem_name": "mathd_algebra_119",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_123",
+      "theorem_name": "mathd_algebra_123",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_126",
+      "theorem_name": "mathd_algebra_126",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_13",
+      "theorem_name": "mathd_algebra_13",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_131",
+      "theorem_name": "mathd_algebra_131",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_132",
+      "theorem_name": "mathd_algebra_132",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_140",
+      "theorem_name": "mathd_algebra_140",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_144",
+      "theorem_name": "mathd_algebra_144",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_149",
+      "theorem_name": "mathd_algebra_149",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_15",
+      "theorem_name": "mathd_algebra_15",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_151",
+      "theorem_name": "mathd_algebra_151",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_159",
+      "theorem_name": "mathd_algebra_159",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_181",
+      "theorem_name": "mathd_algebra_181",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_182",
+      "theorem_name": "mathd_algebra_182",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_185",
+      "theorem_name": "mathd_algebra_185",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_190",
+      "theorem_name": "mathd_algebra_190",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_192",
+      "theorem_name": "mathd_algebra_192",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_206",
+      "theorem_name": "mathd_algebra_206",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_214",
+      "theorem_name": "mathd_algebra_214",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_22",
+      "theorem_name": "mathd_algebra_22",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_224",
+      "theorem_name": "mathd_algebra_224",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_234",
+      "theorem_name": "mathd_algebra_234",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_245",
+      "theorem_name": "mathd_algebra_245",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_247",
+      "theorem_name": "mathd_algebra_247",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_251",
+      "theorem_name": "mathd_algebra_251",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_267",
+      "theorem_name": "mathd_algebra_267",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_28",
+      "theorem_name": "mathd_algebra_28",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_31",
+      "theorem_name": "mathd_algebra_31",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_323",
+      "theorem_name": "mathd_algebra_323",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_327",
+      "theorem_name": "mathd_algebra_327",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_35",
+      "theorem_name": "mathd_algebra_35",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_37",
+      "theorem_name": "mathd_algebra_37",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_393",
+      "theorem_name": "mathd_algebra_393",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_405",
+      "theorem_name": "mathd_algebra_405",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_410",
+      "theorem_name": "mathd_algebra_410",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_421",
+      "theorem_name": "mathd_algebra_421",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_422",
+      "theorem_name": "mathd_algebra_422",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_43",
+      "theorem_name": "mathd_algebra_43",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_433",
+      "theorem_name": "mathd_algebra_433",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_437",
+      "theorem_name": "mathd_algebra_437",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_451",
+      "theorem_name": "mathd_algebra_451",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_455",
+      "theorem_name": "mathd_algebra_455",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_462",
+      "theorem_name": "mathd_algebra_462",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_48",
+      "theorem_name": "mathd_algebra_48",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_480",
+      "theorem_name": "mathd_algebra_480",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_482",
+      "theorem_name": "mathd_algebra_482",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_493",
+      "theorem_name": "mathd_algebra_493",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_509",
+      "theorem_name": "mathd_algebra_509",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_51",
+      "theorem_name": "mathd_algebra_51",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_510",
+      "theorem_name": "mathd_algebra_510",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_536",
+      "theorem_name": "mathd_algebra_536",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_547",
+      "theorem_name": "mathd_algebra_547",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_55",
+      "theorem_name": "mathd_algebra_55",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_568",
+      "theorem_name": "mathd_algebra_568",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_59",
+      "theorem_name": "mathd_algebra_59",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_616",
+      "theorem_name": "mathd_algebra_616",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_67",
+      "theorem_name": "mathd_algebra_67",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_69",
+      "theorem_name": "mathd_algebra_69",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_73",
+      "theorem_name": "mathd_algebra_73",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_77",
+      "theorem_name": "mathd_algebra_77",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_89",
+      "theorem_name": "mathd_algebra_89",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_algebra_96",
+      "theorem_name": "mathd_algebra_96",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_101",
+      "theorem_name": "mathd_numbertheory_101",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_102",
+      "theorem_name": "mathd_numbertheory_102",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_109",
+      "theorem_name": "mathd_numbertheory_109",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_110",
+      "theorem_name": "mathd_numbertheory_110",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_13",
+      "theorem_name": "mathd_numbertheory_13",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_132",
+      "theorem_name": "mathd_numbertheory_132",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_136",
+      "theorem_name": "mathd_numbertheory_136",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_149",
+      "theorem_name": "mathd_numbertheory_149",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_155",
+      "theorem_name": "mathd_numbertheory_155",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_156",
+      "theorem_name": "mathd_numbertheory_156",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_169",
+      "theorem_name": "mathd_numbertheory_169",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_188",
+      "theorem_name": "mathd_numbertheory_188",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_198",
+      "theorem_name": "mathd_numbertheory_198",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_200",
+      "theorem_name": "mathd_numbertheory_200",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_202",
+      "theorem_name": "mathd_numbertheory_202",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_211",
+      "theorem_name": "mathd_numbertheory_211",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_22",
+      "theorem_name": "mathd_numbertheory_22",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_221",
+      "theorem_name": "mathd_numbertheory_221",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_232",
+      "theorem_name": "mathd_numbertheory_232",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_236",
+      "theorem_name": "mathd_numbertheory_236",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_24",
+      "theorem_name": "mathd_numbertheory_24",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_252",
+      "theorem_name": "mathd_numbertheory_252",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_257",
+      "theorem_name": "mathd_numbertheory_257",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_269",
+      "theorem_name": "mathd_numbertheory_269",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_284",
+      "theorem_name": "mathd_numbertheory_284",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_30",
+      "theorem_name": "mathd_numbertheory_30",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_301",
+      "theorem_name": "mathd_numbertheory_301",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_303",
+      "theorem_name": "mathd_numbertheory_303",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_32",
+      "theorem_name": "mathd_numbertheory_32",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_326",
+      "theorem_name": "mathd_numbertheory_326",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_33",
+      "theorem_name": "mathd_numbertheory_33",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_335",
+      "theorem_name": "mathd_numbertheory_335",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_35",
+      "theorem_name": "mathd_numbertheory_35",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_37",
+      "theorem_name": "mathd_numbertheory_37",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_370",
+      "theorem_name": "mathd_numbertheory_370",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_403",
+      "theorem_name": "mathd_numbertheory_403",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_405",
+      "theorem_name": "mathd_numbertheory_405",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_412",
+      "theorem_name": "mathd_numbertheory_412",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_42",
+      "theorem_name": "mathd_numbertheory_42",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_43",
+      "theorem_name": "mathd_numbertheory_43",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_45",
+      "theorem_name": "mathd_numbertheory_45",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_458",
+      "theorem_name": "mathd_numbertheory_458",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_461",
+      "theorem_name": "mathd_numbertheory_461",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_466",
+      "theorem_name": "mathd_numbertheory_466",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_48",
+      "theorem_name": "mathd_numbertheory_48",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_530",
+      "theorem_name": "mathd_numbertheory_530",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_543",
+      "theorem_name": "mathd_numbertheory_543",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_629",
+      "theorem_name": "mathd_numbertheory_629",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_64",
+      "theorem_name": "mathd_numbertheory_64",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_640",
+      "theorem_name": "mathd_numbertheory_640",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_668",
+      "theorem_name": "mathd_numbertheory_668",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_690",
+      "theorem_name": "mathd_numbertheory_690",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_739",
+      "theorem_name": "mathd_numbertheory_739",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_780",
+      "theorem_name": "mathd_numbertheory_780",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_81",
+      "theorem_name": "mathd_numbertheory_81",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_84",
+      "theorem_name": "mathd_numbertheory_84",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_92",
+      "theorem_name": "mathd_numbertheory_92",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "mathd_numbertheory_961",
+      "theorem_name": "mathd_numbertheory_961",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "numbertheory_2dvd4expn",
+      "theorem_name": "numbertheory_2dvd4expn",
+      "axioms": [
+        "propext"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "numbertheory_aneqprodakp4_anmsqrtanp1eq2",
+      "theorem_name": "numbertheory_aneqprodakp4_anmsqrtanp1eq2",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "numbertheory_nckeqnm1ckpnm1ckm1",
+      "theorem_name": "numbertheory_nckeqnm1ckpnm1ckm1",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "numbertheory_prmdvsneqnsqmodpeq0",
+      "theorem_name": "numbertheory_prmdvsneqnsqmodpeq0",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "numbertheory_sqmod3in01d",
+      "theorem_name": "numbertheory_sqmod3in01d",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "numbertheory_sqmod4in01d",
+      "theorem_name": "numbertheory_sqmod4in01d",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "numbertheory_sumkmulnckeqnmul2pownm1",
+      "theorem_name": "numbertheory_sumkmulnckeqnmul2pownm1",
+      "axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    },
+    {
+      "problem_id": "numbertheory_xsqpysqintdenomeq",
+      "theorem_name": "numbertheory_xsqpysqintdenomeq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "verdict": "pass",
+      "has_sorry": false,
+      "compiler_trusted_only": false,
+      "extra_axioms": []
+    }
+  ]
+}

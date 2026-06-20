@@ -1,0 +1,6443 @@
+{
+  "deepseek-prover-v2-test": {
+    "summary": {
+      "prover": "deepseek-prover-v2-test",
+      "benchmark": "miniF2F-test",
+      "backend": "sbert:all-MiniLM-L6-v2",
+      "threshold": 0.4,
+      "n_total": 217,
+      "n_aligned": 184,
+      "n_misaligned": 33,
+      "n_missing_pair": 0,
+      "frac_aligned": 0.8479,
+      "frac_misaligned": 0.1521,
+      "median_score": 0.5404,
+      "min_score": 0.1387,
+      "max_score": 0.7325,
+      "wall_seconds": 6.2,
+      "lowest_scoring_items": [
+        {
+          "problem_id": "mathd_algebra_188",
+          "score": 0.1387,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_numbertheory_254",
+          "score": 0.1932,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_numbertheory_447",
+          "score": 0.2067,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_algebra_24",
+          "score": 0.2322,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_numbertheory_239",
+          "score": 0.2395,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_algebra_160",
+          "score": 0.2464,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_numbertheory_227",
+          "score": 0.2531,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_algebra_137",
+          "score": 0.2575,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_numbertheory_12",
+          "score": 0.2595,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "aime_1984_p1",
+          "score": 0.2856,
+          "verdict": "misaligned"
+        }
+      ]
+    },
+    "rows": [
+      {
+        "problem_id": "aime_1983_p1",
+        "verdict": "aligned",
+        "score": 0.5341,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1983_p2",
+        "verdict": "aligned",
+        "score": 0.6572,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1983_p3",
+        "verdict": "aligned",
+        "score": 0.4592,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1984_p1",
+        "verdict": "misaligned",
+        "score": 0.2856,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1984_p7",
+        "verdict": "aligned",
+        "score": 0.6817,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1987_p5",
+        "verdict": "aligned",
+        "score": 0.6227,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1988_p8",
+        "verdict": "aligned",
+        "score": 0.5202,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1989_p8",
+        "verdict": "aligned",
+        "score": 0.4072,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1990_p15",
+        "verdict": "aligned",
+        "score": 0.5825,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1990_p4",
+        "verdict": "aligned",
+        "score": 0.5548,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1991_p9",
+        "verdict": "aligned",
+        "score": 0.5128,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1994_p3",
+        "verdict": "aligned",
+        "score": 0.513,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1997_p9",
+        "verdict": "aligned",
+        "score": 0.5773,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1999_p11",
+        "verdict": "misaligned",
+        "score": 0.3833,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_2varlineareq_fp3zeq11_3tfm1m5zeqn68_feqn10_zeq7",
+        "verdict": "aligned",
+        "score": 0.645,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_9onxpypzleqsum2onxpy",
+        "verdict": "aligned",
+        "score": 0.6396,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_abpbcpcageq3_sumaonsqrtapbgeq3onsqrt2",
+        "verdict": "aligned",
+        "score": 0.5265,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_absapbon1pabsapbleqsumabsaon1pabsa",
+        "verdict": "aligned",
+        "score": 0.5555,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_absxm1pabsxpabsxp1eqxp2_0leqxleq1",
+        "verdict": "aligned",
+        "score": 0.567,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_amgm_sum1toneqn_prod1tonleq1",
+        "verdict": "misaligned",
+        "score": 0.3359,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_amgm_sumasqdivbgeqsuma",
+        "verdict": "aligned",
+        "score": 0.6295,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_apbon2pownleqapownpbpowon2",
+        "verdict": "aligned",
+        "score": 0.5142,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_apbpceq2_abpbcpcaeq1_aleq1on3anbleq1ancleq4on3",
+        "verdict": "aligned",
+        "score": 0.5732,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_bleqa_apbon2msqrtableqambsqon8b",
+        "verdict": "aligned",
+        "score": 0.4828,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_others_exirrpowirrrat",
+        "verdict": "aligned",
+        "score": 0.5417,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sqineq_at2malt1",
+        "verdict": "aligned",
+        "score": 0.5953,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sqineq_unitcircatbpabsamblt1",
+        "verdict": "aligned",
+        "score": 0.6163,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sqineq_unitcircatbpamblt1",
+        "verdict": "aligned",
+        "score": 0.5998,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sum1onsqrt2to1onsqrt10000lt198",
+        "verdict": "aligned",
+        "score": 0.471,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2000_p1",
+        "verdict": "aligned",
+        "score": 0.4576,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2000_p12",
+        "verdict": "aligned",
+        "score": 0.5651,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2000_p20",
+        "verdict": "aligned",
+        "score": 0.509,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2000_p6",
+        "verdict": "aligned",
+        "score": 0.4404,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2001_p21",
+        "verdict": "aligned",
+        "score": 0.6079,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2001_p5",
+        "verdict": "aligned",
+        "score": 0.4411,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2002_p13",
+        "verdict": "aligned",
+        "score": 0.4675,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2002_p6",
+        "verdict": "misaligned",
+        "score": 0.3226,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2003_p5",
+        "verdict": "aligned",
+        "score": 0.596,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2008_p25",
+        "verdict": "aligned",
+        "score": 0.5016,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2009_p6",
+        "verdict": "aligned",
+        "score": 0.6918,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2009_p7",
+        "verdict": "aligned",
+        "score": 0.4557,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2013_p4",
+        "verdict": "aligned",
+        "score": 0.6528,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2019_p12",
+        "verdict": "aligned",
+        "score": 0.6191,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2020_p15",
+        "verdict": "aligned",
+        "score": 0.5381,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p14",
+        "verdict": "aligned",
+        "score": 0.5487,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p18",
+        "verdict": "aligned",
+        "score": 0.4779,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p19",
+        "verdict": "aligned",
+        "score": 0.425,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p22",
+        "verdict": "aligned",
+        "score": 0.5778,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p3",
+        "verdict": "misaligned",
+        "score": 0.3079,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p8",
+        "verdict": "aligned",
+        "score": 0.5735,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p9",
+        "verdict": "aligned",
+        "score": 0.5184,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2002_p19",
+        "verdict": "aligned",
+        "score": 0.6555,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2002_p2",
+        "verdict": "aligned",
+        "score": 0.5507,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2002_p7",
+        "verdict": "aligned",
+        "score": 0.5227,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p13",
+        "verdict": "aligned",
+        "score": 0.4808,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p2",
+        "verdict": "aligned",
+        "score": 0.608,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p21",
+        "verdict": "aligned",
+        "score": 0.4649,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p22",
+        "verdict": "aligned",
+        "score": 0.639,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p6",
+        "verdict": "aligned",
+        "score": 0.5762,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p1",
+        "verdict": "aligned",
+        "score": 0.4251,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p18",
+        "verdict": "aligned",
+        "score": 0.6007,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p3",
+        "verdict": "aligned",
+        "score": 0.5934,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p4",
+        "verdict": "misaligned",
+        "score": 0.3101,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p9",
+        "verdict": "aligned",
+        "score": 0.5677,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1959_p1",
+        "verdict": "aligned",
+        "score": 0.4218,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1960_p2",
+        "verdict": "misaligned",
+        "score": 0.3308,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1962_p2",
+        "verdict": "aligned",
+        "score": 0.509,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1963_p5",
+        "verdict": "aligned",
+        "score": 0.6122,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1964_p2",
+        "verdict": "aligned",
+        "score": 0.4462,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1965_p2",
+        "verdict": "misaligned",
+        "score": 0.3544,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1968_p5_1",
+        "verdict": "aligned",
+        "score": 0.5722,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1981_p6",
+        "verdict": "aligned",
+        "score": 0.5758,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1983_p6",
+        "verdict": "aligned",
+        "score": 0.4302,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1992_p1",
+        "verdict": "aligned",
+        "score": 0.5416,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_11div10tonmn1ton",
+        "verdict": "aligned",
+        "score": 0.7203,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_12dvd4expnp1p20",
+        "verdict": "aligned",
+        "score": 0.6168,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_1pxpownlt1pnx",
+        "verdict": "aligned",
+        "score": 0.6299,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_nfactltnexpnm1ngt3",
+        "verdict": "aligned",
+        "score": 0.6352,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_pord1p1on2powklt5on2",
+        "verdict": "aligned",
+        "score": 0.4611,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_pprime_pdvdapowpma",
+        "verdict": "aligned",
+        "score": 0.4607,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_prod1p1onk3le3m1onn",
+        "verdict": "aligned",
+        "score": 0.6027,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_sumkexp3eqsumksq",
+        "verdict": "aligned",
+        "score": 0.5776,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_107",
+        "verdict": "aligned",
+        "score": 0.6058,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_113",
+        "verdict": "aligned",
+        "score": 0.6581,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_114",
+        "verdict": "aligned",
+        "score": 0.5131,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_125",
+        "verdict": "misaligned",
+        "score": 0.353,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_129",
+        "verdict": "aligned",
+        "score": 0.428,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_137",
+        "verdict": "misaligned",
+        "score": 0.2575,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_139",
+        "verdict": "aligned",
+        "score": 0.4447,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_141",
+        "verdict": "aligned",
+        "score": 0.4944,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_142",
+        "verdict": "aligned",
+        "score": 0.5704,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_143",
+        "verdict": "aligned",
+        "score": 0.656,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_148",
+        "verdict": "aligned",
+        "score": 0.5922,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_153",
+        "verdict": "aligned",
+        "score": 0.5948,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_156",
+        "verdict": "misaligned",
+        "score": 0.3608,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_158",
+        "verdict": "misaligned",
+        "score": 0.312,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_160",
+        "verdict": "misaligned",
+        "score": 0.2464,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_17",
+        "verdict": "aligned",
+        "score": 0.6557,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_170",
+        "verdict": "aligned",
+        "score": 0.4141,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_171",
+        "verdict": "aligned",
+        "score": 0.5996,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_176",
+        "verdict": "aligned",
+        "score": 0.5228,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_184",
+        "verdict": "aligned",
+        "score": 0.4564,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_188",
+        "verdict": "misaligned",
+        "score": 0.1387,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_196",
+        "verdict": "aligned",
+        "score": 0.4821,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_208",
+        "verdict": "aligned",
+        "score": 0.679,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_209",
+        "verdict": "misaligned",
+        "score": 0.3984,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_215",
+        "verdict": "aligned",
+        "score": 0.5474,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_24",
+        "verdict": "misaligned",
+        "score": 0.2322,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_246",
+        "verdict": "aligned",
+        "score": 0.5766,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_263",
+        "verdict": "aligned",
+        "score": 0.6521,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_270",
+        "verdict": "aligned",
+        "score": 0.5937,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_275",
+        "verdict": "aligned",
+        "score": 0.5381,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_276",
+        "verdict": "aligned",
+        "score": 0.656,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_288",
+        "verdict": "aligned",
+        "score": 0.6007,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_289",
+        "verdict": "aligned",
+        "score": 0.5575,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_293",
+        "verdict": "aligned",
+        "score": 0.6019,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_296",
+        "verdict": "aligned",
+        "score": 0.4081,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_302",
+        "verdict": "aligned",
+        "score": 0.6651,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_304",
+        "verdict": "aligned",
+        "score": 0.6631,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_313",
+        "verdict": "aligned",
+        "score": 0.5544,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_314",
+        "verdict": "aligned",
+        "score": 0.5597,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_320",
+        "verdict": "aligned",
+        "score": 0.4802,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_329",
+        "verdict": "aligned",
+        "score": 0.5127,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_33",
+        "verdict": "aligned",
+        "score": 0.5919,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_332",
+        "verdict": "aligned",
+        "score": 0.6316,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_338",
+        "verdict": "aligned",
+        "score": 0.6191,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_342",
+        "verdict": "misaligned",
+        "score": 0.3683,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_346",
+        "verdict": "aligned",
+        "score": 0.6728,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_354",
+        "verdict": "aligned",
+        "score": 0.5284,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_359",
+        "verdict": "aligned",
+        "score": 0.623,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_362",
+        "verdict": "aligned",
+        "score": 0.6495,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_388",
+        "verdict": "aligned",
+        "score": 0.7028,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_392",
+        "verdict": "aligned",
+        "score": 0.5042,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_398",
+        "verdict": "misaligned",
+        "score": 0.3208,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_400",
+        "verdict": "aligned",
+        "score": 0.6339,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_412",
+        "verdict": "aligned",
+        "score": 0.5746,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_419",
+        "verdict": "aligned",
+        "score": 0.585,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_427",
+        "verdict": "aligned",
+        "score": 0.6998,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_432",
+        "verdict": "aligned",
+        "score": 0.6535,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_44",
+        "verdict": "aligned",
+        "score": 0.4845,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_440",
+        "verdict": "misaligned",
+        "score": 0.2998,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_441",
+        "verdict": "aligned",
+        "score": 0.6245,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_452",
+        "verdict": "aligned",
+        "score": 0.4394,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_459",
+        "verdict": "misaligned",
+        "score": 0.3821,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_478",
+        "verdict": "aligned",
+        "score": 0.403,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_484",
+        "verdict": "aligned",
+        "score": 0.5332,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_487",
+        "verdict": "aligned",
+        "score": 0.418,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_513",
+        "verdict": "aligned",
+        "score": 0.4945,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_598",
+        "verdict": "aligned",
+        "score": 0.63,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_756",
+        "verdict": "aligned",
+        "score": 0.6722,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_76",
+        "verdict": "aligned",
+        "score": 0.6349,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_80",
+        "verdict": "aligned",
+        "score": 0.5882,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_100",
+        "verdict": "aligned",
+        "score": 0.6816,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_1124",
+        "verdict": "aligned",
+        "score": 0.5176,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_12",
+        "verdict": "misaligned",
+        "score": 0.2595,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_127",
+        "verdict": "aligned",
+        "score": 0.4629,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_135",
+        "verdict": "aligned",
+        "score": 0.5817,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_150",
+        "verdict": "aligned",
+        "score": 0.6301,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_175",
+        "verdict": "aligned",
+        "score": 0.5278,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_185",
+        "verdict": "misaligned",
+        "score": 0.3944,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_207",
+        "verdict": "aligned",
+        "score": 0.5386,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_212",
+        "verdict": "aligned",
+        "score": 0.6026,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_222",
+        "verdict": "aligned",
+        "score": 0.6051,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_227",
+        "verdict": "misaligned",
+        "score": 0.2531,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_229",
+        "verdict": "aligned",
+        "score": 0.5759,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_233",
+        "verdict": "aligned",
+        "score": 0.6768,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_234",
+        "verdict": "aligned",
+        "score": 0.5088,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_235",
+        "verdict": "aligned",
+        "score": 0.6235,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_237",
+        "verdict": "misaligned",
+        "score": 0.3728,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_239",
+        "verdict": "misaligned",
+        "score": 0.2395,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_247",
+        "verdict": "aligned",
+        "score": 0.4473,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_254",
+        "verdict": "misaligned",
+        "score": 0.1932,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_277",
+        "verdict": "aligned",
+        "score": 0.598,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_293",
+        "verdict": "aligned",
+        "score": 0.4689,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_296",
+        "verdict": "aligned",
+        "score": 0.4125,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_299",
+        "verdict": "aligned",
+        "score": 0.4957,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_3",
+        "verdict": "aligned",
+        "score": 0.422,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_314",
+        "verdict": "misaligned",
+        "score": 0.3832,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_320",
+        "verdict": "aligned",
+        "score": 0.5715,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_321",
+        "verdict": "aligned",
+        "score": 0.5849,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_328",
+        "verdict": "aligned",
+        "score": 0.5404,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_34",
+        "verdict": "aligned",
+        "score": 0.4409,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_341",
+        "verdict": "aligned",
+        "score": 0.5237,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_342",
+        "verdict": "aligned",
+        "score": 0.5406,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_343",
+        "verdict": "aligned",
+        "score": 0.4111,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_345",
+        "verdict": "aligned",
+        "score": 0.6117,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_353",
+        "verdict": "misaligned",
+        "score": 0.3854,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_427",
+        "verdict": "aligned",
+        "score": 0.5456,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_430",
+        "verdict": "aligned",
+        "score": 0.4186,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_435",
+        "verdict": "aligned",
+        "score": 0.551,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_447",
+        "verdict": "misaligned",
+        "score": 0.2067,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_457",
+        "verdict": "aligned",
+        "score": 0.6025,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_483",
+        "verdict": "misaligned",
+        "score": 0.3238,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_495",
+        "verdict": "aligned",
+        "score": 0.4289,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_5",
+        "verdict": "misaligned",
+        "score": 0.3059,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_517",
+        "verdict": "aligned",
+        "score": 0.5341,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_521",
+        "verdict": "aligned",
+        "score": 0.4171,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_541",
+        "verdict": "aligned",
+        "score": 0.4765,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_551",
+        "verdict": "aligned",
+        "score": 0.5631,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_552",
+        "verdict": "aligned",
+        "score": 0.5341,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_559",
+        "verdict": "misaligned",
+        "score": 0.3371,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_582",
+        "verdict": "aligned",
+        "score": 0.5139,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_618",
+        "verdict": "aligned",
+        "score": 0.6879,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_66",
+        "verdict": "aligned",
+        "score": 0.5757,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_711",
+        "verdict": "aligned",
+        "score": 0.6051,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_728",
+        "verdict": "aligned",
+        "score": 0.6958,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_765",
+        "verdict": "aligned",
+        "score": 0.5205,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_769",
+        "verdict": "aligned",
+        "score": 0.6641,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_85",
+        "verdict": "misaligned",
+        "score": 0.3029,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_99",
+        "verdict": "aligned",
+        "score": 0.4757,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_2pownm1prime_nprime",
+        "verdict": "aligned",
+        "score": 0.4839,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_3pow2pownm1mod2pownp3eq2pownp2",
+        "verdict": "aligned",
+        "score": 0.5407,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_4x3m7y3neq2003",
+        "verdict": "aligned",
+        "score": 0.7325,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_aoddbdiv4asqpbsqmod8eq1",
+        "verdict": "aligned",
+        "score": 0.5483,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_fxeq4powxp6powxp9powx_f2powmdvdf2pown",
+        "verdict": "aligned",
+        "score": 0.6023,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_notequiv2i2jasqbsqdiv8",
+        "verdict": "aligned",
+        "score": 0.4694,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_x5neqy2p4",
+        "verdict": "aligned",
+        "score": 0.6746,
+        "informal_present": true,
+        "formal_present": true
+      }
+    ]
+  },
+  "deepseek-prover-v2-valid": {
+    "summary": {
+      "prover": "deepseek-prover-v2-valid",
+      "benchmark": "miniF2F-valid",
+      "backend": "sbert:all-MiniLM-L6-v2",
+      "threshold": 0.4,
+      "n_total": 221,
+      "n_aligned": 176,
+      "n_misaligned": 45,
+      "n_missing_pair": 0,
+      "frac_aligned": 0.7964,
+      "frac_misaligned": 0.2036,
+      "median_score": 0.5185,
+      "min_score": 0.2143,
+      "max_score": 0.7894,
+      "wall_seconds": 2.7,
+      "lowest_scoring_items": [
+        {
+          "problem_id": "mathd_algebra_31",
+          "score": 0.2143,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "amc12a_2011_p18",
+          "score": 0.2466,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "amc12_2000_p11",
+          "score": 0.2616,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "amc12a_2003_p25",
+          "score": 0.2717,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_algebra_455",
+          "score": 0.2744,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "amc12a_2003_p1",
+          "score": 0.2766,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "amc12a_2009_p5",
+          "score": 0.2835,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_numbertheory_109",
+          "score": 0.2871,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_algebra_104",
+          "score": 0.2931,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_algebra_451",
+          "score": 0.2961,
+          "verdict": "misaligned"
+        }
+      ]
+    },
+    "rows": [
+      {
+        "problem_id": "aimeII_2001_p3",
+        "verdict": "aligned",
+        "score": 0.5256,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aimeII_2020_p6",
+        "verdict": "aligned",
+        "score": 0.6124,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aimeI_2000_p7",
+        "verdict": "aligned",
+        "score": 0.5081,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1983_p9",
+        "verdict": "aligned",
+        "score": 0.5333,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1984_p15",
+        "verdict": "aligned",
+        "score": 0.7283,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1987_p8",
+        "verdict": "aligned",
+        "score": 0.5155,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1988_p4",
+        "verdict": "misaligned",
+        "score": 0.3497,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1990_p2",
+        "verdict": "aligned",
+        "score": 0.5679,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1991_p1",
+        "verdict": "aligned",
+        "score": 0.6221,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1991_p6",
+        "verdict": "aligned",
+        "score": 0.5511,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1996_p5",
+        "verdict": "aligned",
+        "score": 0.4674,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1997_p11",
+        "verdict": "misaligned",
+        "score": 0.3667,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_2complexrootspoly_xsqp49eqxp7itxpn7i",
+        "verdict": "aligned",
+        "score": 0.7068,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_2rootsintpoly_am10tap11eqasqpam110",
+        "verdict": "aligned",
+        "score": 0.7646,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_2rootspoly_apatapbeq2asqp2ab",
+        "verdict": "misaligned",
+        "score": 0.397,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_2varlineareq_xpeeq7_2xpeeq3_eeq11_xeqn4",
+        "verdict": "aligned",
+        "score": 0.5884,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_3rootspoly_amdtamctambeqnasqmbpctapcbtdpasqmbpctapcbta",
+        "verdict": "aligned",
+        "score": 0.6482,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_amgm_faxinrrp2msqrt2geq2mxm1div2x",
+        "verdict": "aligned",
+        "score": 0.5577,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_amgm_sqrtxymulxmyeqxpy_xpygeq4",
+        "verdict": "aligned",
+        "score": 0.5227,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_amgm_sumasqdivbsqgeqsumbdiva",
+        "verdict": "aligned",
+        "score": 0.6046,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_apb4leq8ta4pb4",
+        "verdict": "aligned",
+        "score": 0.6629,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_binomnegdiscrineq_10alt28asqp1",
+        "verdict": "aligned",
+        "score": 0.7169,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_manipexpr_2erprsqpesqeqnrpnesq",
+        "verdict": "aligned",
+        "score": 0.6704,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_manipexpr_apbeq2cceqiacpbceqm2",
+        "verdict": "aligned",
+        "score": 0.4963,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sqineq_2at2pclta2c2p41pc",
+        "verdict": "aligned",
+        "score": 0.6874,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sqineq_2unitcircatblt1",
+        "verdict": "aligned",
+        "score": 0.5552,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sqineq_36azm9asqle36zsq",
+        "verdict": "aligned",
+        "score": 0.7894,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sqineq_4bap1lt4bsqpap1sq",
+        "verdict": "aligned",
+        "score": 0.7551,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_xmysqpymzsqpzmxsqeqxyz_xpypzp6dvdx3y3z3",
+        "verdict": "aligned",
+        "score": 0.5066,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2000_p11",
+        "verdict": "misaligned",
+        "score": 0.2616,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2000_p15",
+        "verdict": "aligned",
+        "score": 0.4638,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2000_p5",
+        "verdict": "aligned",
+        "score": 0.6042,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2001_p2",
+        "verdict": "aligned",
+        "score": 0.437,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2001_p9",
+        "verdict": "aligned",
+        "score": 0.6335,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2002_p1",
+        "verdict": "misaligned",
+        "score": 0.3616,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2002_p12",
+        "verdict": "aligned",
+        "score": 0.4694,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2003_p1",
+        "verdict": "misaligned",
+        "score": 0.2766,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2003_p24",
+        "verdict": "aligned",
+        "score": 0.4646,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2003_p25",
+        "verdict": "misaligned",
+        "score": 0.2717,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2008_p15",
+        "verdict": "aligned",
+        "score": 0.5768,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2008_p2",
+        "verdict": "aligned",
+        "score": 0.4908,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2008_p4",
+        "verdict": "misaligned",
+        "score": 0.3499,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2008_p8",
+        "verdict": "misaligned",
+        "score": 0.3106,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2009_p15",
+        "verdict": "aligned",
+        "score": 0.5755,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2009_p2",
+        "verdict": "aligned",
+        "score": 0.5963,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2009_p5",
+        "verdict": "misaligned",
+        "score": 0.2835,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2009_p9",
+        "verdict": "aligned",
+        "score": 0.6212,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2010_p10",
+        "verdict": "aligned",
+        "score": 0.5941,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2010_p11",
+        "verdict": "aligned",
+        "score": 0.7197,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2011_p18",
+        "verdict": "misaligned",
+        "score": 0.2466,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2013_p7",
+        "verdict": "aligned",
+        "score": 0.5408,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2013_p8",
+        "verdict": "aligned",
+        "score": 0.419,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2015_p10",
+        "verdict": "aligned",
+        "score": 0.5937,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2016_p2",
+        "verdict": "aligned",
+        "score": 0.6476,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2016_p3",
+        "verdict": "aligned",
+        "score": 0.5178,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2017_p2",
+        "verdict": "misaligned",
+        "score": 0.3707,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2017_p7",
+        "verdict": "aligned",
+        "score": 0.7034,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2019_p21",
+        "verdict": "aligned",
+        "score": 0.4296,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2019_p9",
+        "verdict": "aligned",
+        "score": 0.5913,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p7",
+        "verdict": "aligned",
+        "score": 0.5373,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2002_p11",
+        "verdict": "aligned",
+        "score": 0.4659,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2002_p3",
+        "verdict": "aligned",
+        "score": 0.4969,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2002_p6",
+        "verdict": "aligned",
+        "score": 0.4247,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2003_p17",
+        "verdict": "aligned",
+        "score": 0.5136,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2003_p6",
+        "verdict": "aligned",
+        "score": 0.4242,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2003_p9",
+        "verdict": "aligned",
+        "score": 0.5524,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2004_p3",
+        "verdict": "aligned",
+        "score": 0.6944,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p5",
+        "verdict": "misaligned",
+        "score": 0.3774,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1961_p1",
+        "verdict": "aligned",
+        "score": 0.4066,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1964_p1_1",
+        "verdict": "misaligned",
+        "score": 0.3558,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1964_p1_2",
+        "verdict": "aligned",
+        "score": 0.5319,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1965_p1",
+        "verdict": "misaligned",
+        "score": 0.3838,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1966_p4",
+        "verdict": "aligned",
+        "score": 0.4413,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1966_p5",
+        "verdict": "aligned",
+        "score": 0.43,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1973_p3",
+        "verdict": "aligned",
+        "score": 0.4421,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1974_p5",
+        "verdict": "aligned",
+        "score": 0.4712,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1977_p5",
+        "verdict": "aligned",
+        "score": 0.5461,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1984_p2",
+        "verdict": "aligned",
+        "score": 0.4209,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_divisibility_3div2tooddnp1",
+        "verdict": "aligned",
+        "score": 0.6338,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_divisibility_3divnto3m2n",
+        "verdict": "aligned",
+        "score": 0.7263,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_divisibility_9div10tonm1",
+        "verdict": "aligned",
+        "score": 0.7603,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_ineq_nsqlefactn",
+        "verdict": "aligned",
+        "score": 0.6606,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_seq_mul2pnp1",
+        "verdict": "aligned",
+        "score": 0.5956,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_sum2kp1npqsqm1",
+        "verdict": "aligned",
+        "score": 0.5877,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_sum_1oktkp1",
+        "verdict": "aligned",
+        "score": 0.4005,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_sum_odd",
+        "verdict": "aligned",
+        "score": 0.6081,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_10",
+        "verdict": "aligned",
+        "score": 0.6289,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_101",
+        "verdict": "aligned",
+        "score": 0.635,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_104",
+        "verdict": "misaligned",
+        "score": 0.2931,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_109",
+        "verdict": "aligned",
+        "score": 0.4755,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_11",
+        "verdict": "aligned",
+        "score": 0.5489,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_110",
+        "verdict": "aligned",
+        "score": 0.5371,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_116",
+        "verdict": "aligned",
+        "score": 0.6562,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_119",
+        "verdict": "aligned",
+        "score": 0.5881,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_123",
+        "verdict": "misaligned",
+        "score": 0.3806,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_126",
+        "verdict": "aligned",
+        "score": 0.503,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_13",
+        "verdict": "aligned",
+        "score": 0.5081,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_131",
+        "verdict": "aligned",
+        "score": 0.5192,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_132",
+        "verdict": "aligned",
+        "score": 0.5405,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_140",
+        "verdict": "aligned",
+        "score": 0.5888,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_144",
+        "verdict": "misaligned",
+        "score": 0.3929,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_149",
+        "verdict": "misaligned",
+        "score": 0.3881,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_15",
+        "verdict": "aligned",
+        "score": 0.5364,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_151",
+        "verdict": "aligned",
+        "score": 0.6704,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_159",
+        "verdict": "aligned",
+        "score": 0.6368,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_181",
+        "verdict": "aligned",
+        "score": 0.5022,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_182",
+        "verdict": "aligned",
+        "score": 0.5861,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_185",
+        "verdict": "aligned",
+        "score": 0.4343,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_190",
+        "verdict": "aligned",
+        "score": 0.5924,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_192",
+        "verdict": "aligned",
+        "score": 0.6662,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_206",
+        "verdict": "misaligned",
+        "score": 0.3701,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_214",
+        "verdict": "misaligned",
+        "score": 0.3808,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_22",
+        "verdict": "aligned",
+        "score": 0.6477,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_224",
+        "verdict": "misaligned",
+        "score": 0.3993,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_234",
+        "verdict": "aligned",
+        "score": 0.4703,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_245",
+        "verdict": "aligned",
+        "score": 0.4635,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_247",
+        "verdict": "aligned",
+        "score": 0.6788,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_251",
+        "verdict": "aligned",
+        "score": 0.5107,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_267",
+        "verdict": "aligned",
+        "score": 0.4498,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_28",
+        "verdict": "aligned",
+        "score": 0.5412,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_31",
+        "verdict": "misaligned",
+        "score": 0.2143,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_323",
+        "verdict": "misaligned",
+        "score": 0.3595,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_327",
+        "verdict": "aligned",
+        "score": 0.6134,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_35",
+        "verdict": "aligned",
+        "score": 0.5905,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_37",
+        "verdict": "aligned",
+        "score": 0.7282,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_393",
+        "verdict": "aligned",
+        "score": 0.4172,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_405",
+        "verdict": "aligned",
+        "score": 0.4855,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_410",
+        "verdict": "aligned",
+        "score": 0.4874,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_421",
+        "verdict": "aligned",
+        "score": 0.4979,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_422",
+        "verdict": "misaligned",
+        "score": 0.3796,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_43",
+        "verdict": "misaligned",
+        "score": 0.2991,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_433",
+        "verdict": "aligned",
+        "score": 0.6214,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_437",
+        "verdict": "aligned",
+        "score": 0.4204,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_451",
+        "verdict": "misaligned",
+        "score": 0.2961,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_455",
+        "verdict": "misaligned",
+        "score": 0.2744,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_462",
+        "verdict": "aligned",
+        "score": 0.6057,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_48",
+        "verdict": "aligned",
+        "score": 0.5115,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_480",
+        "verdict": "aligned",
+        "score": 0.6129,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_482",
+        "verdict": "aligned",
+        "score": 0.4274,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_493",
+        "verdict": "aligned",
+        "score": 0.7017,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_509",
+        "verdict": "aligned",
+        "score": 0.6066,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_51",
+        "verdict": "misaligned",
+        "score": 0.3505,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_510",
+        "verdict": "aligned",
+        "score": 0.5167,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_536",
+        "verdict": "aligned",
+        "score": 0.6074,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_547",
+        "verdict": "aligned",
+        "score": 0.6899,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_55",
+        "verdict": "misaligned",
+        "score": 0.3883,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_568",
+        "verdict": "aligned",
+        "score": 0.7484,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_59",
+        "verdict": "aligned",
+        "score": 0.5151,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_616",
+        "verdict": "aligned",
+        "score": 0.6456,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_67",
+        "verdict": "aligned",
+        "score": 0.6613,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_69",
+        "verdict": "aligned",
+        "score": 0.6028,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_73",
+        "verdict": "aligned",
+        "score": 0.5265,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_77",
+        "verdict": "misaligned",
+        "score": 0.3728,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_89",
+        "verdict": "aligned",
+        "score": 0.606,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_96",
+        "verdict": "aligned",
+        "score": 0.5922,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_101",
+        "verdict": "aligned",
+        "score": 0.4939,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_102",
+        "verdict": "aligned",
+        "score": 0.4879,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_109",
+        "verdict": "misaligned",
+        "score": 0.2871,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_110",
+        "verdict": "aligned",
+        "score": 0.4744,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_13",
+        "verdict": "misaligned",
+        "score": 0.39,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_132",
+        "verdict": "aligned",
+        "score": 0.5432,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_136",
+        "verdict": "aligned",
+        "score": 0.5408,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_149",
+        "verdict": "misaligned",
+        "score": 0.3343,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_155",
+        "verdict": "misaligned",
+        "score": 0.3,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_156",
+        "verdict": "aligned",
+        "score": 0.6039,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_169",
+        "verdict": "aligned",
+        "score": 0.4766,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_188",
+        "verdict": "aligned",
+        "score": 0.643,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_198",
+        "verdict": "aligned",
+        "score": 0.5581,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_200",
+        "verdict": "misaligned",
+        "score": 0.3807,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_202",
+        "verdict": "aligned",
+        "score": 0.6962,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_211",
+        "verdict": "misaligned",
+        "score": 0.3134,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_22",
+        "verdict": "aligned",
+        "score": 0.4694,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_221",
+        "verdict": "aligned",
+        "score": 0.5686,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_232",
+        "verdict": "aligned",
+        "score": 0.4596,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_236",
+        "verdict": "aligned",
+        "score": 0.6301,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_24",
+        "verdict": "misaligned",
+        "score": 0.355,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_252",
+        "verdict": "aligned",
+        "score": 0.5294,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_257",
+        "verdict": "misaligned",
+        "score": 0.349,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_269",
+        "verdict": "aligned",
+        "score": 0.7448,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_284",
+        "verdict": "aligned",
+        "score": 0.4567,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_30",
+        "verdict": "aligned",
+        "score": 0.7059,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_301",
+        "verdict": "aligned",
+        "score": 0.4212,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_303",
+        "verdict": "aligned",
+        "score": 0.5343,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_32",
+        "verdict": "aligned",
+        "score": 0.4525,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_326",
+        "verdict": "aligned",
+        "score": 0.5472,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_33",
+        "verdict": "aligned",
+        "score": 0.5953,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_335",
+        "verdict": "aligned",
+        "score": 0.4487,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_35",
+        "verdict": "aligned",
+        "score": 0.5158,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_37",
+        "verdict": "aligned",
+        "score": 0.4956,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_370",
+        "verdict": "aligned",
+        "score": 0.475,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_403",
+        "verdict": "aligned",
+        "score": 0.5525,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_405",
+        "verdict": "aligned",
+        "score": 0.5757,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_412",
+        "verdict": "aligned",
+        "score": 0.56,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_42",
+        "verdict": "misaligned",
+        "score": 0.3743,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_43",
+        "verdict": "aligned",
+        "score": 0.6302,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_45",
+        "verdict": "aligned",
+        "score": 0.5916,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_458",
+        "verdict": "misaligned",
+        "score": 0.3568,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_461",
+        "verdict": "aligned",
+        "score": 0.4506,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_466",
+        "verdict": "misaligned",
+        "score": 0.3594,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_48",
+        "verdict": "aligned",
+        "score": 0.5965,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_530",
+        "verdict": "aligned",
+        "score": 0.5562,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_543",
+        "verdict": "aligned",
+        "score": 0.6636,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_629",
+        "verdict": "aligned",
+        "score": 0.5638,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_64",
+        "verdict": "aligned",
+        "score": 0.6704,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_640",
+        "verdict": "aligned",
+        "score": 0.6396,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_668",
+        "verdict": "aligned",
+        "score": 0.5252,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_690",
+        "verdict": "aligned",
+        "score": 0.4992,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_739",
+        "verdict": "aligned",
+        "score": 0.4378,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_780",
+        "verdict": "aligned",
+        "score": 0.4753,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_81",
+        "verdict": "aligned",
+        "score": 0.5185,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_84",
+        "verdict": "aligned",
+        "score": 0.5519,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_92",
+        "verdict": "aligned",
+        "score": 0.4932,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_961",
+        "verdict": "aligned",
+        "score": 0.5541,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_2dvd4expn",
+        "verdict": "misaligned",
+        "score": 0.3938,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_aneqprodakp4_anmsqrtanp1eq2",
+        "verdict": "aligned",
+        "score": 0.456,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_nckeqnm1ckpnm1ckm1",
+        "verdict": "misaligned",
+        "score": 0.3207,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_prmdvsneqnsqmodpeq0",
+        "verdict": "aligned",
+        "score": 0.484,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_sqmod3in01d",
+        "verdict": "aligned",
+        "score": 0.4955,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_sqmod4in01d",
+        "verdict": "aligned",
+        "score": 0.6171,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_sumkmulnckeqnmul2pownm1",
+        "verdict": "aligned",
+        "score": 0.4229,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_xsqpysqintdenomeq",
+        "verdict": "misaligned",
+        "score": 0.3249,
+        "informal_present": true,
+        "formal_present": true
+      }
+    ]
+  },
+  "kimina-prover-72b-test": {
+    "summary": {
+      "prover": "kimina-prover-72b-test",
+      "benchmark": "miniF2F-test",
+      "backend": "sbert:all-MiniLM-L6-v2",
+      "threshold": 0.4,
+      "n_total": 197,
+      "n_aligned": 172,
+      "n_misaligned": 25,
+      "n_missing_pair": 0,
+      "frac_aligned": 0.8731,
+      "frac_misaligned": 0.1269,
+      "median_score": 0.5197,
+      "min_score": 0.1909,
+      "max_score": 0.754,
+      "wall_seconds": 2.9,
+      "lowest_scoring_items": [
+        {
+          "problem_id": "mathd_algebra_188",
+          "score": 0.1909,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "amc12b_2021_p4",
+          "score": 0.2455,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "aime_1984_p1",
+          "score": 0.2657,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_numbertheory_447",
+          "score": 0.2701,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_algebra_487",
+          "score": 0.2875,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_numbertheory_353",
+          "score": 0.3159,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_algebra_170",
+          "score": 0.3163,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_numbertheory_227",
+          "score": 0.3243,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_numbertheory_239",
+          "score": 0.3263,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_algebra_398",
+          "score": 0.3308,
+          "verdict": "misaligned"
+        }
+      ]
+    },
+    "rows": [
+      {
+        "problem_id": "aime_1983_p1",
+        "verdict": "aligned",
+        "score": 0.4274,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1983_p2",
+        "verdict": "aligned",
+        "score": 0.6885,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1983_p3",
+        "verdict": "aligned",
+        "score": 0.4024,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1984_p1",
+        "verdict": "misaligned",
+        "score": 0.2657,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1984_p7",
+        "verdict": "aligned",
+        "score": 0.6388,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1987_p5",
+        "verdict": "aligned",
+        "score": 0.5888,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1988_p8",
+        "verdict": "aligned",
+        "score": 0.5279,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1989_p8",
+        "verdict": "aligned",
+        "score": 0.4778,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1990_p15",
+        "verdict": "aligned",
+        "score": 0.5932,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1990_p4",
+        "verdict": "aligned",
+        "score": 0.5197,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1991_p9",
+        "verdict": "aligned",
+        "score": 0.4596,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1994_p3",
+        "verdict": "aligned",
+        "score": 0.4614,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1997_p9",
+        "verdict": "aligned",
+        "score": 0.5467,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_2varlineareq_fp3zeq11_3tfm1m5zeqn68_feqn10_zeq7",
+        "verdict": "aligned",
+        "score": 0.626,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_9onxpypzleqsum2onxpy",
+        "verdict": "aligned",
+        "score": 0.6642,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_absapbon1pabsapbleqsumabsaon1pabsa",
+        "verdict": "aligned",
+        "score": 0.5448,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_absxm1pabsxpabsxp1eqxp2_0leqxleq1",
+        "verdict": "aligned",
+        "score": 0.5929,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_amgm_sumasqdivbgeqsuma",
+        "verdict": "aligned",
+        "score": 0.6402,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_apbon2pownleqapownpbpowon2",
+        "verdict": "aligned",
+        "score": 0.4957,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_apbpceq2_abpbcpcaeq1_aleq1on3anbleq1ancleq4on3",
+        "verdict": "aligned",
+        "score": 0.6284,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_bleqa_apbon2msqrtableqambsqon8b",
+        "verdict": "aligned",
+        "score": 0.5197,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_others_exirrpowirrrat",
+        "verdict": "aligned",
+        "score": 0.5149,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sqineq_at2malt1",
+        "verdict": "aligned",
+        "score": 0.5494,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sqineq_unitcircatbpabsamblt1",
+        "verdict": "aligned",
+        "score": 0.6612,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sqineq_unitcircatbpamblt1",
+        "verdict": "aligned",
+        "score": 0.5174,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2000_p12",
+        "verdict": "aligned",
+        "score": 0.4919,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2000_p20",
+        "verdict": "aligned",
+        "score": 0.4011,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2000_p6",
+        "verdict": "aligned",
+        "score": 0.4978,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2001_p21",
+        "verdict": "aligned",
+        "score": 0.5643,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2002_p13",
+        "verdict": "aligned",
+        "score": 0.4726,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2002_p6",
+        "verdict": "misaligned",
+        "score": 0.3599,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2003_p5",
+        "verdict": "aligned",
+        "score": 0.5493,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2008_p25",
+        "verdict": "aligned",
+        "score": 0.4787,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2009_p6",
+        "verdict": "aligned",
+        "score": 0.6791,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2009_p7",
+        "verdict": "aligned",
+        "score": 0.4253,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2013_p4",
+        "verdict": "aligned",
+        "score": 0.6532,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2020_p4",
+        "verdict": "aligned",
+        "score": 0.5014,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p14",
+        "verdict": "aligned",
+        "score": 0.4101,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p18",
+        "verdict": "aligned",
+        "score": 0.4898,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p3",
+        "verdict": "aligned",
+        "score": 0.5174,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p8",
+        "verdict": "aligned",
+        "score": 0.6125,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p9",
+        "verdict": "aligned",
+        "score": 0.5605,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2002_p19",
+        "verdict": "aligned",
+        "score": 0.555,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2002_p2",
+        "verdict": "aligned",
+        "score": 0.4576,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2002_p7",
+        "verdict": "aligned",
+        "score": 0.4504,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p13",
+        "verdict": "aligned",
+        "score": 0.4728,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p2",
+        "verdict": "aligned",
+        "score": 0.6492,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p21",
+        "verdict": "aligned",
+        "score": 0.4373,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p22",
+        "verdict": "aligned",
+        "score": 0.5499,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p6",
+        "verdict": "aligned",
+        "score": 0.4456,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p1",
+        "verdict": "aligned",
+        "score": 0.4184,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p18",
+        "verdict": "aligned",
+        "score": 0.5323,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p3",
+        "verdict": "aligned",
+        "score": 0.5345,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p4",
+        "verdict": "misaligned",
+        "score": 0.2455,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p9",
+        "verdict": "aligned",
+        "score": 0.6027,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1959_p1",
+        "verdict": "aligned",
+        "score": 0.5487,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1960_p2",
+        "verdict": "aligned",
+        "score": 0.4595,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1962_p2",
+        "verdict": "aligned",
+        "score": 0.5259,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1963_p5",
+        "verdict": "aligned",
+        "score": 0.5742,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1964_p2",
+        "verdict": "aligned",
+        "score": 0.4937,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1968_p5_1",
+        "verdict": "aligned",
+        "score": 0.5304,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1981_p6",
+        "verdict": "aligned",
+        "score": 0.5768,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1983_p6",
+        "verdict": "aligned",
+        "score": 0.4997,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_11div10tonmn1ton",
+        "verdict": "aligned",
+        "score": 0.754,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_12dvd4expnp1p20",
+        "verdict": "aligned",
+        "score": 0.6727,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_1pxpownlt1pnx",
+        "verdict": "aligned",
+        "score": 0.6064,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_nfactltnexpnm1ngt3",
+        "verdict": "aligned",
+        "score": 0.6096,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_pprime_pdvdapowpma",
+        "verdict": "misaligned",
+        "score": 0.3802,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_107",
+        "verdict": "aligned",
+        "score": 0.6502,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_113",
+        "verdict": "aligned",
+        "score": 0.5537,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_114",
+        "verdict": "aligned",
+        "score": 0.5493,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_125",
+        "verdict": "aligned",
+        "score": 0.4465,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_129",
+        "verdict": "aligned",
+        "score": 0.4467,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_137",
+        "verdict": "misaligned",
+        "score": 0.373,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_139",
+        "verdict": "aligned",
+        "score": 0.4629,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_141",
+        "verdict": "aligned",
+        "score": 0.5192,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_142",
+        "verdict": "aligned",
+        "score": 0.4289,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_143",
+        "verdict": "aligned",
+        "score": 0.5994,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_148",
+        "verdict": "aligned",
+        "score": 0.5172,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_153",
+        "verdict": "aligned",
+        "score": 0.6186,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_156",
+        "verdict": "aligned",
+        "score": 0.4129,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_158",
+        "verdict": "misaligned",
+        "score": 0.3934,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_160",
+        "verdict": "aligned",
+        "score": 0.4692,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_17",
+        "verdict": "aligned",
+        "score": 0.643,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_170",
+        "verdict": "misaligned",
+        "score": 0.3163,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_171",
+        "verdict": "aligned",
+        "score": 0.582,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_176",
+        "verdict": "aligned",
+        "score": 0.5998,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_184",
+        "verdict": "aligned",
+        "score": 0.4697,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_188",
+        "verdict": "misaligned",
+        "score": 0.1909,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_196",
+        "verdict": "misaligned",
+        "score": 0.394,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_208",
+        "verdict": "aligned",
+        "score": 0.6389,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_209",
+        "verdict": "misaligned",
+        "score": 0.3408,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_215",
+        "verdict": "aligned",
+        "score": 0.5434,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_24",
+        "verdict": "aligned",
+        "score": 0.415,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_246",
+        "verdict": "aligned",
+        "score": 0.6511,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_263",
+        "verdict": "aligned",
+        "score": 0.5747,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_270",
+        "verdict": "aligned",
+        "score": 0.5641,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_276",
+        "verdict": "aligned",
+        "score": 0.5576,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_288",
+        "verdict": "aligned",
+        "score": 0.5702,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_289",
+        "verdict": "aligned",
+        "score": 0.5131,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_293",
+        "verdict": "aligned",
+        "score": 0.5469,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_296",
+        "verdict": "misaligned",
+        "score": 0.3911,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_302",
+        "verdict": "aligned",
+        "score": 0.635,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_304",
+        "verdict": "aligned",
+        "score": 0.6215,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_313",
+        "verdict": "aligned",
+        "score": 0.4588,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_314",
+        "verdict": "aligned",
+        "score": 0.5349,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_329",
+        "verdict": "aligned",
+        "score": 0.5405,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_33",
+        "verdict": "aligned",
+        "score": 0.5572,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_332",
+        "verdict": "aligned",
+        "score": 0.5547,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_338",
+        "verdict": "aligned",
+        "score": 0.5721,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_342",
+        "verdict": "aligned",
+        "score": 0.5216,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_346",
+        "verdict": "aligned",
+        "score": 0.6444,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_354",
+        "verdict": "aligned",
+        "score": 0.5444,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_359",
+        "verdict": "aligned",
+        "score": 0.4479,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_362",
+        "verdict": "aligned",
+        "score": 0.6134,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_388",
+        "verdict": "aligned",
+        "score": 0.5667,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_392",
+        "verdict": "aligned",
+        "score": 0.5292,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_398",
+        "verdict": "misaligned",
+        "score": 0.3308,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_400",
+        "verdict": "aligned",
+        "score": 0.6332,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_412",
+        "verdict": "aligned",
+        "score": 0.5042,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_419",
+        "verdict": "aligned",
+        "score": 0.5431,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_427",
+        "verdict": "aligned",
+        "score": 0.5688,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_432",
+        "verdict": "aligned",
+        "score": 0.5875,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_44",
+        "verdict": "aligned",
+        "score": 0.4333,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_440",
+        "verdict": "misaligned",
+        "score": 0.3609,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_441",
+        "verdict": "aligned",
+        "score": 0.5846,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_452",
+        "verdict": "aligned",
+        "score": 0.4757,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_459",
+        "verdict": "aligned",
+        "score": 0.4329,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_478",
+        "verdict": "aligned",
+        "score": 0.5102,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_484",
+        "verdict": "aligned",
+        "score": 0.6048,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_487",
+        "verdict": "misaligned",
+        "score": 0.2875,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_513",
+        "verdict": "aligned",
+        "score": 0.5147,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_598",
+        "verdict": "aligned",
+        "score": 0.5127,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_756",
+        "verdict": "aligned",
+        "score": 0.6097,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_76",
+        "verdict": "aligned",
+        "score": 0.6958,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_80",
+        "verdict": "misaligned",
+        "score": 0.3816,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_100",
+        "verdict": "aligned",
+        "score": 0.5747,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_1124",
+        "verdict": "aligned",
+        "score": 0.5015,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_12",
+        "verdict": "misaligned",
+        "score": 0.3668,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_127",
+        "verdict": "aligned",
+        "score": 0.4858,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_135",
+        "verdict": "aligned",
+        "score": 0.5682,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_150",
+        "verdict": "aligned",
+        "score": 0.5973,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_175",
+        "verdict": "aligned",
+        "score": 0.4743,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_185",
+        "verdict": "misaligned",
+        "score": 0.394,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_207",
+        "verdict": "aligned",
+        "score": 0.5324,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_212",
+        "verdict": "aligned",
+        "score": 0.5525,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_222",
+        "verdict": "aligned",
+        "score": 0.641,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_227",
+        "verdict": "misaligned",
+        "score": 0.3243,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_229",
+        "verdict": "aligned",
+        "score": 0.5725,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_233",
+        "verdict": "aligned",
+        "score": 0.6124,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_234",
+        "verdict": "aligned",
+        "score": 0.4902,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_235",
+        "verdict": "aligned",
+        "score": 0.6172,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_237",
+        "verdict": "misaligned",
+        "score": 0.3939,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_239",
+        "verdict": "misaligned",
+        "score": 0.3263,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_247",
+        "verdict": "aligned",
+        "score": 0.4755,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_254",
+        "verdict": "aligned",
+        "score": 0.4352,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_277",
+        "verdict": "aligned",
+        "score": 0.6153,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_293",
+        "verdict": "aligned",
+        "score": 0.5307,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_296",
+        "verdict": "aligned",
+        "score": 0.51,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_299",
+        "verdict": "aligned",
+        "score": 0.4989,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_3",
+        "verdict": "misaligned",
+        "score": 0.3424,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_314",
+        "verdict": "aligned",
+        "score": 0.4791,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_320",
+        "verdict": "aligned",
+        "score": 0.4811,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_321",
+        "verdict": "aligned",
+        "score": 0.5679,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_328",
+        "verdict": "aligned",
+        "score": 0.59,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_34",
+        "verdict": "aligned",
+        "score": 0.4597,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_341",
+        "verdict": "aligned",
+        "score": 0.4466,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_342",
+        "verdict": "aligned",
+        "score": 0.6821,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_343",
+        "verdict": "aligned",
+        "score": 0.4079,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_345",
+        "verdict": "aligned",
+        "score": 0.5682,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_353",
+        "verdict": "misaligned",
+        "score": 0.3159,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_427",
+        "verdict": "aligned",
+        "score": 0.4812,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_430",
+        "verdict": "aligned",
+        "score": 0.4868,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_435",
+        "verdict": "aligned",
+        "score": 0.7468,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_447",
+        "verdict": "misaligned",
+        "score": 0.2701,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_457",
+        "verdict": "aligned",
+        "score": 0.448,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_483",
+        "verdict": "misaligned",
+        "score": 0.3897,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_495",
+        "verdict": "aligned",
+        "score": 0.5357,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_5",
+        "verdict": "misaligned",
+        "score": 0.3565,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_517",
+        "verdict": "aligned",
+        "score": 0.4872,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_521",
+        "verdict": "aligned",
+        "score": 0.4581,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_541",
+        "verdict": "aligned",
+        "score": 0.4863,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_551",
+        "verdict": "aligned",
+        "score": 0.5102,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_559",
+        "verdict": "aligned",
+        "score": 0.5932,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_582",
+        "verdict": "aligned",
+        "score": 0.4709,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_618",
+        "verdict": "aligned",
+        "score": 0.6977,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_66",
+        "verdict": "aligned",
+        "score": 0.4523,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_711",
+        "verdict": "aligned",
+        "score": 0.5837,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_728",
+        "verdict": "aligned",
+        "score": 0.6198,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_765",
+        "verdict": "aligned",
+        "score": 0.4091,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_769",
+        "verdict": "aligned",
+        "score": 0.5844,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_85",
+        "verdict": "aligned",
+        "score": 0.4827,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_99",
+        "verdict": "aligned",
+        "score": 0.4759,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_4x3m7y3neq2003",
+        "verdict": "aligned",
+        "score": 0.6644,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_aoddbdiv4asqpbsqmod8eq1",
+        "verdict": "aligned",
+        "score": 0.611,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_notequiv2i2jasqbsqdiv8",
+        "verdict": "aligned",
+        "score": 0.5677,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_x5neqy2p4",
+        "verdict": "aligned",
+        "score": 0.5918,
+        "informal_present": true,
+        "formal_present": true
+      }
+    ]
+  },
+  "goedel-prover-v2-test": {
+    "summary": {
+      "prover": "goedel-prover-v2-test",
+      "benchmark": "miniF2F-test",
+      "backend": "sbert:all-MiniLM-L6-v2",
+      "threshold": 0.4,
+      "n_total": 244,
+      "n_aligned": 242,
+      "n_misaligned": 2,
+      "n_missing_pair": 0,
+      "frac_aligned": 0.9918,
+      "frac_misaligned": 0.0082,
+      "median_score": 0.6432,
+      "min_score": 0.3769,
+      "max_score": 0.8635,
+      "wall_seconds": 3.5,
+      "lowest_scoring_items": [
+        {
+          "problem_id": "mathd_algebra_304",
+          "score": 0.3769,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_algebra_484",
+          "score": 0.399,
+          "verdict": "misaligned"
+        },
+        {
+          "problem_id": "mathd_algebra_302",
+          "score": 0.4472,
+          "verdict": "aligned"
+        },
+        {
+          "problem_id": "mathd_numbertheory_299",
+          "score": 0.4489,
+          "verdict": "aligned"
+        },
+        {
+          "problem_id": "numbertheory_exk2powkeqapb2mulbpa2_aeq1",
+          "score": 0.45,
+          "verdict": "aligned"
+        },
+        {
+          "problem_id": "algebra_2varlineareq_fp3zeq11_3tfm1m5zeqn68_feqn10_zeq7",
+          "score": 0.4559,
+          "verdict": "aligned"
+        },
+        {
+          "problem_id": "mathd_numbertheory_207",
+          "score": 0.4754,
+          "verdict": "aligned"
+        },
+        {
+          "problem_id": "mathd_numbertheory_235",
+          "score": 0.4775,
+          "verdict": "aligned"
+        },
+        {
+          "problem_id": "mathd_numbertheory_12",
+          "score": 0.4949,
+          "verdict": "aligned"
+        },
+        {
+          "problem_id": "algebra_sum1onsqrt2to1onsqrt10000lt198",
+          "score": 0.4949,
+          "verdict": "aligned"
+        }
+      ]
+    },
+    "rows": [
+      {
+        "problem_id": "mathd_algebra_478",
+        "verdict": "aligned",
+        "score": 0.7775,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_4x3m7y3neq2003",
+        "verdict": "aligned",
+        "score": 0.6483,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1983_p1",
+        "verdict": "aligned",
+        "score": 0.7194,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2001_p5",
+        "verdict": "aligned",
+        "score": 0.6764,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_141",
+        "verdict": "aligned",
+        "score": 0.7394,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_3",
+        "verdict": "aligned",
+        "score": 0.6396,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1969_p2",
+        "verdict": "aligned",
+        "score": 0.6679,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_209",
+        "verdict": "aligned",
+        "score": 0.5884,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_1124",
+        "verdict": "aligned",
+        "score": 0.6821,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1983_p6",
+        "verdict": "aligned",
+        "score": 0.7011,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_237",
+        "verdict": "aligned",
+        "score": 0.6894,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_33",
+        "verdict": "aligned",
+        "score": 0.6429,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p3",
+        "verdict": "aligned",
+        "score": 0.6142,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_299",
+        "verdict": "aligned",
+        "score": 0.4489,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p2",
+        "verdict": "aligned",
+        "score": 0.5567,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sqineq_unitcircatbpabsamblt1",
+        "verdict": "aligned",
+        "score": 0.6835,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1977_p6",
+        "verdict": "aligned",
+        "score": 0.6662,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_419",
+        "verdict": "aligned",
+        "score": 0.6371,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2020_p10",
+        "verdict": "aligned",
+        "score": 0.6496,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1960_p2",
+        "verdict": "aligned",
+        "score": 0.622,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_427",
+        "verdict": "aligned",
+        "score": 0.7182,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_x5neqy2p4",
+        "verdict": "aligned",
+        "score": 0.5263,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imosl_2007_algebra_p6",
+        "verdict": "aligned",
+        "score": 0.7204,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_398",
+        "verdict": "aligned",
+        "score": 0.6983,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1963_p5",
+        "verdict": "aligned",
+        "score": 0.5051,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_430",
+        "verdict": "aligned",
+        "score": 0.6446,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_459",
+        "verdict": "aligned",
+        "score": 0.8069,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_12dvd4expnp1p20",
+        "verdict": "aligned",
+        "score": 0.5981,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_320",
+        "verdict": "aligned",
+        "score": 0.6222,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_137",
+        "verdict": "aligned",
+        "score": 0.6487,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1997_p5",
+        "verdict": "aligned",
+        "score": 0.5876,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_277",
+        "verdict": "aligned",
+        "score": 0.7204,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_559",
+        "verdict": "aligned",
+        "score": 0.6095,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_160",
+        "verdict": "aligned",
+        "score": 0.7309,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_24",
+        "verdict": "aligned",
+        "score": 0.7135,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_176",
+        "verdict": "aligned",
+        "score": 0.5149,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_nfactltnexpnm1ngt3",
+        "verdict": "aligned",
+        "score": 0.5298,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_208",
+        "verdict": "aligned",
+        "score": 0.6567,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_353",
+        "verdict": "aligned",
+        "score": 0.6073,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_notequiv2i2jasqbsqdiv8",
+        "verdict": "aligned",
+        "score": 0.6241,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_156",
+        "verdict": "aligned",
+        "score": 0.6818,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_12",
+        "verdict": "aligned",
+        "score": 0.4949,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_345",
+        "verdict": "aligned",
+        "score": 0.6041,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_447",
+        "verdict": "aligned",
+        "score": 0.5553,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_328",
+        "verdict": "aligned",
+        "score": 0.6056,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_451",
+        "verdict": "aligned",
+        "score": 0.7972,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1997_p9",
+        "verdict": "aligned",
+        "score": 0.7641,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sqineq_at2malt1",
+        "verdict": "aligned",
+        "score": 0.5297,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_apbmpcneq0_aeq0anbeq0anceq0",
+        "verdict": "aligned",
+        "score": 0.6525,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_171",
+        "verdict": "aligned",
+        "score": 0.5377,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_227",
+        "verdict": "aligned",
+        "score": 0.6541,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_188",
+        "verdict": "aligned",
+        "score": 0.6345,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_765",
+        "verdict": "aligned",
+        "score": 0.6987,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1959_p1",
+        "verdict": "aligned",
+        "score": 0.6417,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_175",
+        "verdict": "aligned",
+        "score": 0.6663,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_sumkexp3eqsumksq",
+        "verdict": "aligned",
+        "score": 0.5981,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_fxeq4powxp6powxp9powx_f2powmdvdf2pown",
+        "verdict": "aligned",
+        "score": 0.7719,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1992_p1",
+        "verdict": "aligned",
+        "score": 0.6465,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1982_p1",
+        "verdict": "aligned",
+        "score": 0.6674,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1987_p5",
+        "verdict": "aligned",
+        "score": 0.6378,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_346",
+        "verdict": "aligned",
+        "score": 0.6256,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_487",
+        "verdict": "aligned",
+        "score": 0.6645,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_728",
+        "verdict": "aligned",
+        "score": 0.5181,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_184",
+        "verdict": "aligned",
+        "score": 0.6308,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_552",
+        "verdict": "aligned",
+        "score": 0.7306,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p9",
+        "verdict": "aligned",
+        "score": 0.5891,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1994_p3",
+        "verdict": "aligned",
+        "score": 0.6755,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_44",
+        "verdict": "aligned",
+        "score": 0.6541,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_215",
+        "verdict": "aligned",
+        "score": 0.6521,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_293",
+        "verdict": "aligned",
+        "score": 0.564,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_769",
+        "verdict": "aligned",
+        "score": 0.6136,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_452",
+        "verdict": "aligned",
+        "score": 0.5956,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_5",
+        "verdict": "aligned",
+        "score": 0.6985,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_207",
+        "verdict": "aligned",
+        "score": 0.4754,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_342",
+        "verdict": "aligned",
+        "score": 0.5543,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_483",
+        "verdict": "aligned",
+        "score": 0.7056,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p21",
+        "verdict": "aligned",
+        "score": 0.6289,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2003_p5",
+        "verdict": "aligned",
+        "score": 0.673,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_495",
+        "verdict": "aligned",
+        "score": 0.692,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_296",
+        "verdict": "aligned",
+        "score": 0.6514,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_abpbcpcageq3_sumaonsqrtapbgeq3onsqrt2",
+        "verdict": "aligned",
+        "score": 0.7345,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_2varlineareq_fp3zeq11_3tfm1m5zeqn68_feqn10_zeq7",
+        "verdict": "aligned",
+        "score": 0.4559,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_247",
+        "verdict": "aligned",
+        "score": 0.5662,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_pord1p1on2powklt5on2",
+        "verdict": "aligned",
+        "score": 0.5432,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_107",
+        "verdict": "aligned",
+        "score": 0.6325,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_2pownm1prime_nprime",
+        "verdict": "aligned",
+        "score": 0.5596,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_412",
+        "verdict": "aligned",
+        "score": 0.624,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2013_p4",
+        "verdict": "aligned",
+        "score": 0.6276,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_392",
+        "verdict": "aligned",
+        "score": 0.6742,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_314",
+        "verdict": "aligned",
+        "score": 0.6732,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_prod1p1onk3le3m1onn",
+        "verdict": "aligned",
+        "score": 0.6278,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_343",
+        "verdict": "aligned",
+        "score": 0.637,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_756",
+        "verdict": "aligned",
+        "score": 0.673,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2002_p7",
+        "verdict": "aligned",
+        "score": 0.6684,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_80",
+        "verdict": "aligned",
+        "score": 0.5357,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_457",
+        "verdict": "aligned",
+        "score": 0.6965,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2000_p12",
+        "verdict": "aligned",
+        "score": 0.7273,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_135",
+        "verdict": "aligned",
+        "score": 0.6506,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_275",
+        "verdict": "aligned",
+        "score": 0.6489,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_388",
+        "verdict": "aligned",
+        "score": 0.5054,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2020_p7",
+        "verdict": "aligned",
+        "score": 0.829,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1981_p6",
+        "verdict": "aligned",
+        "score": 0.624,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_263",
+        "verdict": "aligned",
+        "score": 0.5013,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_34",
+        "verdict": "aligned",
+        "score": 0.5844,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_764",
+        "verdict": "aligned",
+        "score": 0.5305,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p4",
+        "verdict": "aligned",
+        "score": 0.7561,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1962_p2",
+        "verdict": "aligned",
+        "score": 0.7492,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_170",
+        "verdict": "aligned",
+        "score": 0.6673,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_432",
+        "verdict": "aligned",
+        "score": 0.4999,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_598",
+        "verdict": "aligned",
+        "score": 0.6007,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_bleqa_apbon2msqrtableqambsqon8b",
+        "verdict": "aligned",
+        "score": 0.6981,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_276",
+        "verdict": "aligned",
+        "score": 0.6254,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p14",
+        "verdict": "aligned",
+        "score": 0.6735,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sum1onsqrt2to1onsqrt10000lt198",
+        "verdict": "aligned",
+        "score": 0.4949,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_618",
+        "verdict": "aligned",
+        "score": 0.8635,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2020_p4",
+        "verdict": "aligned",
+        "score": 0.6789,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p6",
+        "verdict": "aligned",
+        "score": 0.659,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_435",
+        "verdict": "aligned",
+        "score": 0.6054,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_others_exirrpowirrrat",
+        "verdict": "aligned",
+        "score": 0.6418,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_427",
+        "verdict": "aligned",
+        "score": 0.6081,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_76",
+        "verdict": "aligned",
+        "score": 0.6835,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_99",
+        "verdict": "aligned",
+        "score": 0.6188,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_9onxpypzleqsum2onxpy",
+        "verdict": "aligned",
+        "score": 0.697,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_233",
+        "verdict": "aligned",
+        "score": 0.7249,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_absapbon1pabsapbleqsumabsaon1pabsa",
+        "verdict": "aligned",
+        "score": 0.6494,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1984_p6",
+        "verdict": "aligned",
+        "score": 0.6614,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_2001_p6",
+        "verdict": "aligned",
+        "score": 0.6826,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_321",
+        "verdict": "aligned",
+        "score": 0.7152,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_17",
+        "verdict": "aligned",
+        "score": 0.6404,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_153",
+        "verdict": "aligned",
+        "score": 0.6968,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_sqineq_unitcircatbpamblt1",
+        "verdict": "aligned",
+        "score": 0.6972,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p18",
+        "verdict": "aligned",
+        "score": 0.7901,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_329",
+        "verdict": "aligned",
+        "score": 0.7215,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_pprime_pdvdapowpma",
+        "verdict": "aligned",
+        "score": 0.628,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p9",
+        "verdict": "aligned",
+        "score": 0.756,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1984_p1",
+        "verdict": "aligned",
+        "score": 0.5703,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p22",
+        "verdict": "aligned",
+        "score": 0.822,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_229",
+        "verdict": "aligned",
+        "score": 0.5613,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_100",
+        "verdict": "aligned",
+        "score": 0.6039,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_313",
+        "verdict": "aligned",
+        "score": 0.6637,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2002_p4",
+        "verdict": "aligned",
+        "score": 0.6784,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2002_p6",
+        "verdict": "aligned",
+        "score": 0.5577,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2003_p23",
+        "verdict": "aligned",
+        "score": 0.609,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_129",
+        "verdict": "aligned",
+        "score": 0.5362,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p18",
+        "verdict": "aligned",
+        "score": 0.732,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_484",
+        "verdict": "misaligned",
+        "score": 0.399,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_551",
+        "verdict": "aligned",
+        "score": 0.5735,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_304",
+        "verdict": "misaligned",
+        "score": 0.3769,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p8",
+        "verdict": "aligned",
+        "score": 0.8337,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_ineq_nto1onlt2m1on",
+        "verdict": "aligned",
+        "score": 0.6143,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2002_p19",
+        "verdict": "aligned",
+        "score": 0.5742,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_341",
+        "verdict": "aligned",
+        "score": 0.6195,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_711",
+        "verdict": "aligned",
+        "score": 0.7379,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p22",
+        "verdict": "aligned",
+        "score": 0.726,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_113",
+        "verdict": "aligned",
+        "score": 0.6518,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2020_p9",
+        "verdict": "aligned",
+        "score": 0.736,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2000_p1",
+        "verdict": "aligned",
+        "score": 0.7369,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p19",
+        "verdict": "aligned",
+        "score": 0.7003,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_amgm_sumasqdivbgeqsuma",
+        "verdict": "aligned",
+        "score": 0.7269,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_212",
+        "verdict": "aligned",
+        "score": 0.5561,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_320",
+        "verdict": "aligned",
+        "score": 0.5143,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_125",
+        "verdict": "aligned",
+        "score": 0.5681,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_1pxpownlt1pnx",
+        "verdict": "aligned",
+        "score": 0.5986,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_148",
+        "verdict": "aligned",
+        "score": 0.5811,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2019_p12",
+        "verdict": "aligned",
+        "score": 0.6383,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "induction_11div10tonmn1ton",
+        "verdict": "aligned",
+        "score": 0.5522,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_amgm_sum1toneqn_prod1tonleq1",
+        "verdict": "aligned",
+        "score": 0.6192,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1985_p6",
+        "verdict": "aligned",
+        "score": 0.6205,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2020_p15",
+        "verdict": "aligned",
+        "score": 0.8214,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_332",
+        "verdict": "aligned",
+        "score": 0.7384,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_cubrtrp1oncubrtreq3_rcubp1onrcubeq5778",
+        "verdict": "aligned",
+        "score": 0.6494,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_293",
+        "verdict": "aligned",
+        "score": 0.6665,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_440",
+        "verdict": "aligned",
+        "score": 0.7325,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_254",
+        "verdict": "aligned",
+        "score": 0.7642,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2000_p6",
+        "verdict": "aligned",
+        "score": 0.596,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1988_p8",
+        "verdict": "aligned",
+        "score": 0.6404,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_114",
+        "verdict": "aligned",
+        "score": 0.6538,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_2019_p1",
+        "verdict": "aligned",
+        "score": 0.6778,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_513",
+        "verdict": "aligned",
+        "score": 0.6602,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_143",
+        "verdict": "aligned",
+        "score": 0.6053,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_354",
+        "verdict": "aligned",
+        "score": 0.6222,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1984_p7",
+        "verdict": "aligned",
+        "score": 0.7097,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_246",
+        "verdict": "aligned",
+        "score": 0.5798,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1983_p3",
+        "verdict": "aligned",
+        "score": 0.6262,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_3pow2pownm1mod2pownp3eq2pownp2",
+        "verdict": "aligned",
+        "score": 0.6322,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_85",
+        "verdict": "aligned",
+        "score": 0.7156,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2001_p21",
+        "verdict": "aligned",
+        "score": 0.6287,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_239",
+        "verdict": "aligned",
+        "score": 0.5802,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2002_p2",
+        "verdict": "aligned",
+        "score": 0.586,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_196",
+        "verdict": "aligned",
+        "score": 0.6065,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_342",
+        "verdict": "aligned",
+        "score": 0.6442,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_517",
+        "verdict": "aligned",
+        "score": 0.5665,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2009_p7",
+        "verdict": "aligned",
+        "score": 0.6209,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_270",
+        "verdict": "aligned",
+        "score": 0.5463,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p12",
+        "verdict": "aligned",
+        "score": 0.7289,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_362",
+        "verdict": "aligned",
+        "score": 0.6198,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_521",
+        "verdict": "aligned",
+        "score": 0.6324,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2002_p13",
+        "verdict": "aligned",
+        "score": 0.5524,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1964_p2",
+        "verdict": "aligned",
+        "score": 0.7042,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_289",
+        "verdict": "aligned",
+        "score": 0.7496,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p3",
+        "verdict": "aligned",
+        "score": 0.6989,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2008_p25",
+        "verdict": "aligned",
+        "score": 0.5773,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_apbpceq2_abpbcpcaeq1_aleq1on3anbleq1ancleq4on3",
+        "verdict": "aligned",
+        "score": 0.7077,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_66",
+        "verdict": "aligned",
+        "score": 0.5842,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p1",
+        "verdict": "aligned",
+        "score": 0.5294,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_apbon2pownleqapownpbpowon2",
+        "verdict": "aligned",
+        "score": 0.6852,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1968_p5_1",
+        "verdict": "aligned",
+        "score": 0.7113,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1990_p15",
+        "verdict": "aligned",
+        "score": 0.5999,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_235",
+        "verdict": "aligned",
+        "score": 0.4775,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2020_p13",
+        "verdict": "aligned",
+        "score": 0.6649,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12b_2021_p13",
+        "verdict": "aligned",
+        "score": 0.6233,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_234",
+        "verdict": "aligned",
+        "score": 0.6522,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_aoddbdiv4asqpbsqmod8eq1",
+        "verdict": "aligned",
+        "score": 0.6777,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_222",
+        "verdict": "aligned",
+        "score": 0.6776,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1999_p11",
+        "verdict": "aligned",
+        "score": 0.694,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_359",
+        "verdict": "aligned",
+        "score": 0.6225,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1965_p2",
+        "verdict": "aligned",
+        "score": 0.677,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_288",
+        "verdict": "aligned",
+        "score": 0.7119,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_127",
+        "verdict": "aligned",
+        "score": 0.657,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "imo_1974_p3",
+        "verdict": "aligned",
+        "score": 0.6519,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1991_p9",
+        "verdict": "aligned",
+        "score": 0.7291,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2009_p6",
+        "verdict": "aligned",
+        "score": 0.6635,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_158",
+        "verdict": "aligned",
+        "score": 0.6297,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "algebra_absxm1pabsxpabsxp1eqxp2_0leqxleq1",
+        "verdict": "aligned",
+        "score": 0.6033,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1990_p4",
+        "verdict": "aligned",
+        "score": 0.6019,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_541",
+        "verdict": "aligned",
+        "score": 0.5773,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_314",
+        "verdict": "aligned",
+        "score": 0.5329,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12_2000_p20",
+        "verdict": "aligned",
+        "score": 0.6534,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_302",
+        "verdict": "aligned",
+        "score": 0.4472,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1983_p2",
+        "verdict": "aligned",
+        "score": 0.7721,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_139",
+        "verdict": "aligned",
+        "score": 0.6752,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2021_p25",
+        "verdict": "aligned",
+        "score": 0.6899,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "amc12a_2020_p25",
+        "verdict": "aligned",
+        "score": 0.6893,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_150",
+        "verdict": "aligned",
+        "score": 0.718,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1989_p8",
+        "verdict": "aligned",
+        "score": 0.6432,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_296",
+        "verdict": "aligned",
+        "score": 0.6935,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_142",
+        "verdict": "aligned",
+        "score": 0.5947,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "numbertheory_exk2powkeqapb2mulbpa2_aeq1",
+        "verdict": "aligned",
+        "score": 0.45,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_400",
+        "verdict": "aligned",
+        "score": 0.5455,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "aime_1995_p7",
+        "verdict": "aligned",
+        "score": 0.558,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_185",
+        "verdict": "aligned",
+        "score": 0.5453,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_441",
+        "verdict": "aligned",
+        "score": 0.5099,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_numbertheory_582",
+        "verdict": "aligned",
+        "score": 0.5847,
+        "informal_present": true,
+        "formal_present": true
+      },
+      {
+        "problem_id": "mathd_algebra_338",
+        "verdict": "aligned",
+        "score": 0.5238,
+        "informal_present": true,
+        "formal_present": true
+      }
+    ]
+  }
+}
