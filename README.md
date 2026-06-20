@@ -26,9 +26,9 @@ python -m proofgate audit-corpus --root corpus --out reports/synthetic.json
 To audit released artifacts:
 
 ```bash
-bash scripts/download_artifacts.sh           # ~5 MB total, three provers
-bash scripts/setup_lake_projects.sh           # ~3-5 GB per prover, one-time
-bash scripts/run_audit.sh                     # ~3-6 h depending on caches
+bash scripts/download_artifacts.sh           
+bash scripts/setup_lake_projects.sh           
+bash scripts/run_audit.sh                     
 ```
 
 ## Trusted axiom base
@@ -43,7 +43,7 @@ We follow the de facto Lean 4 mathematics convention:
 
 ## Citation
 
-If you use ProofGate in academic work, please cite the workshop paper (see `paper/proofgate.pdf`).
+If you use ProofGate in academic work, please cite the workshop paper.
 
 ## License
 
